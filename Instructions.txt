@@ -6,19 +6,24 @@
 2. ΔΗΜΙΟΥΡΓΙΑ VENV:
    Στο console ,γραψτε: python -m venv venv
 
-3. ΕΝΕΡΓΟΠΟΙΗΣΗ VENV:
+3. Powershell admin
+   Ανοιγεις το Powershell σαν administrator
+   Τρεξε το command:Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   κλεισε το Powershell
+   
+4. ΕΝΕΡΓΟΠΟΙΗΣΗ VENV:
    Στο console ,γραψτε: Για Windows: venv\Scripts\activate
    Στο console ,γραψτε: Για macOS/Linux: source venv/bin/activate
 
-4. ΕΓΚΑΤΑΣΤΑΣΗ BIBLIOTHIKΩΝ:
+5. ΕΓΚΑΤΑΣΤΑΣΗ BIBLIOTHIKΩΝ:
    Στο console ,γραψτε: pip install -r requirements.txt
 
-5. ΡΥΘΜΙΣΗ VS CODE:
+6. ΡΥΘΜΙΣΗ VS CODE:
    - Ανοίξτε το VS Code και πατήστε Ctrl+Shift+P
    - Επιλέξτε "Python: Select Interpreter"
    - Enter Interpreter path
    - Find
    - Διαλέξτε το Python.exe από το venv/Scripts (E-shop/venv/Scripts/python.exe)
 
-6. ΕΚΤΕΛΕΣΗ:
+7. ΕΚΤΕΛΕΣΗ:
    python app.py
