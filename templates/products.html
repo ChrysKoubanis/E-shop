@@ -3,33 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Eshop - Products</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <title>TechShop - Προϊόντα</title>
+    <style>
+        /* Κοινά styles με το homepage */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #6e48aa, #9d50bb);
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        /* Ειδικά styles για τη σελίδα προϊόντων */
+        .search-bar {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .search-bar input {
+            width: 70%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .search-bar button {
+            padding: 0.8rem 1.5rem;
+            background: #6e48aa;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 0.5rem;
+        }
+        .products-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 1rem;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-info {
+            padding: 1rem;
+        }
+        .product-info h3 {
+            margin-bottom: 0.5rem;
+        }
+        .product-info p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .product-info .price {
+            font-weight: bold;
+            color: #6e48aa;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="/static/images/logo.png" alt="Eshop Logo" class="logo">
         <nav>
-            <a href="/templates/homepage.html">Home</a>
-            <a href="/templates/products.html">Products</a>
+            <div class="logo">TechShop</div>
+            <div class="nav-links">
+                <a href="/">Αρχική</a>
+                <a href="/products">Προϊόντα</a>
+                <a href="#">Επικοινωνία</a>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search products...">
-            <button id="searchButton">Search</button>
-        </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Αναζήτηση προϊόντων...">
+        <button>Αναζήτηση</button>
+    </div>
 
-        <div class="products-container">
-            <!-- Products will be populated by JavaScript -->
+    <div class="products-grid">
+        <!-- Παράδειγμα προϊόντων (θα γεμίζει δυναμικά με JavaScript) -->
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x200" alt="Smartphone" class="product-img">
+            <div class="product-info">
+                <h3>iPhone 15 Pro</h3>
+                <p>6.1" OLED, A17 Pro, 128GB</p>
+                <p class="price">1.099€</p>
+            </div>
         </div>
-    </main>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300x200" alt="Laptop" class="product-img">
+            <div class="product-info">
+                <h3>MacBook Air M2</h3>
+                <p>13.6", 8GB RAM, 256GB SSD</p>
+                <p class="price">1.199€</p>
+            </div>
+        </div>
+    </div>
 
     <footer>
-        <p>Created by: Team Member 1, Team Member 2, Team Member 3, Team Member 4</p>
+        <p>© 2025 TechShop | Δημιουργήθηκε από την ομάδα σας</p>
     </footer>
 
-    <script src="/static/js/products.js"></script>
-</body>
-</html>
+    async function loadProducts() {
+        const response = await fetch('/search?name=');
+        const products = await response.json();
+        const grid = document.querySelector('.products-grid');
+        
+        grid.innerHTML = products.map(product => `
+            <div class="product-card">
+                <img src="${product.image}" alt="${product.name}" class="product-img">
+                <div class="product-info">
+                    <h3>${product.name}</h3>
+                    <p>${product.description}</p>
+                    <p class="price">${product.price}€</p>
+                </div>
+            </div>
+        `).join('');
+    }
+    loadProducts();
