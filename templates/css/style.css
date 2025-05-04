@@ -56,6 +56,126 @@ footer { background: var(--dark); color: var(--white); padding: 2rem; text-align
 .social-links a:hover { background: var(--accent); transform: translateY(-3px); }
 .copyright { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; }
 
+
+
+/* ====== Products Page ====== */
+.products-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-section {
+  margin-bottom: 2rem;
+}
+
+.search-container {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search-input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--primary);
+  border-radius: 50px 0 0 50px;
+  font-size: 1rem;
+  outline: none;
+}
+
+#search-button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0 1.5rem;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+#search-button:hover {
+  background: var(--secondary);
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-item {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.product-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.product-item:hover .product-image img {
+  transform: scale(1.05);
+}
+
+.product-details {
+  padding: 1rem;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+
+.product-description {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-price {
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.product-likes {
+  display: flex;
+  align-items: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.product-likes i {
+  color: var(--accent);
+  margin-right: 5px;
+}
+
+.loading-message {
+  text-align: center;
+  grid-column: 1 / -1;
+  padding: 2rem;
+  color: var(--primary);
+}
+
 /* ====== Responsive ====== */
 @media (max-width: 768px) {
   .menu-toggle { display: block; }

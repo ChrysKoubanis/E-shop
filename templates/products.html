@@ -1,144 +1,64 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-  <meta charset="UTF-8">
-  <title>Προϊόντα | Το Ηλεκτρονικό μας Κατάστημα</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .wrapper {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    header {
-      background-color: #2c3e50;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
-    }
-
-    header .logo {
-      font-size: 24px;
-      font-weight: bold;
-    }
-
-    nav a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-    }
-
-    .search-bar {
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-      background-color: #ecf0f1;
-    }
-
-    .search-bar input {
-      padding: 10px;
-      width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .search-bar button {
-      padding: 10px 20px;
-      margin-left: 10px;
-      background-color: #3498db;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .product-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 30px;
-      gap: 20px;
-      background-color: #f7f7f7;
-    }
-
-    .product-card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 250px;
-      padding: 15px;
-      text-align: center;
-    }
-
-    .product-card img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    main {
-      flex: 1;
-    }
-
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Προϊόντα</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrapper">
-
-    <!-- Header -->
     <header>
-      <div class="logo">MyTechStore</div>
-      <nav>
-        <a href="homepage.html">Αρχική</a>
-        <a href="products.html">Προϊόντα</a>
-      </nav>
+        <nav>
+            <div class="logo"><i class="fas fa-laptop-code"></i> TechShop</div>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <div class="nav-links">
+                <a href="/">Αρχική</a>
+                <a href="/products">Προϊόντα</a>
+                <a href="#">Επικοινωνία</a>
+            </div>
+        </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-      <!-- Search Bar -->
-      <section class="search-bar">
-        <input type="text" id="searchInput" placeholder="Αναζήτηση προϊόντων...">
-        <button id="searchButton">Αναζήτηση</button>
-      </section>
+    <main class="products-page">
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Αναζήτηση προϊόντων...">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </section>
 
-      <!-- Product List -->
-      <section class="product-list" id="productList">
-        <div class="product-card">
-          <img src="images/laptop1.jpg" alt="Laptop">
-          <h3>Lenovo IdeaPad 3</h3>
-          <p>Ιδανικός φορητός υπολογιστής για καθημερινή χρήση.</p>
-        </div>
-
-        <div class="product-card">
-          <img src="images/phone1.jpg" alt="Smartphone">
-          <h3>Samsung Galaxy A54</h3>
-          <p>Οικονομικό smartphone με εξαιρετική κάμερα.</p>
-        </div>
-
-        <!-- Περισσότερα προϊόντα εδώ -->
-      </section>
+        <section class="products-section">
+            <div class="products-container" id="products-list">
+                <!-- Προϊόντα θα προστεθούν δυναμικά μέσω JavaScript -->
+                <div class="loading-message">Φόρτωση προϊόντων...</div>
+            </div>
+        </section>
     </main>
 
-    <!-- Footer -->
     <footer>
-      <p>Developed by Papadopoulou Ourania, Bouzouki Polyxeni, Koubanis Xrysostomos, Trygoutis Konstantinos</p>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>TechShop</h3>
+                <p>Οι καλύτερες τιμές σε ηλεκτρονικές συσκευές</p>
+            </div>
+            <div class="footer-col">
+                <h3>Επικοινωνία</h3>
+                <p><i class="fas fa-map-marker-alt"></i> CSD Auth, Θεσσαλονίκη</p>
+                <p><i class="fas fa-envelope"></i> info@techshop.gr</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 TechShop | Developed by Papadopoulou Ourania, Bouzouki Polyxeni, Chrysostomos Koubanis, Konstantinos Trygoutis</p>
+        </div>
     </footer>
 
-  </div>
+    <script src="products.js"></script>
+    <script>
+        // Mobile Menu
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
