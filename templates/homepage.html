@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechShop - Καλώς Ήρθατε</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></head>
 <body>
     <header>
         <nav>
@@ -37,8 +36,7 @@
         <div class="products">
             <div class="product-card">
                 <div class="product-img">
-                    <img src="photos/product1.jpg" alt="Slide 1">
-                </div>
+                    <img src="{{ url_for('static', filename='photos/product1.jpg') }}" alt="Slide 1">
                 <div class="product-info">
                     <h3>iPhone 13 Pro</h3>
                     <p>6.1" Super Retina XDR</p>
@@ -47,7 +45,7 @@
             </div>
             <div class="product-card">
                 <div class="product-img">
-                    <img src="photos/product2.jpg" alt = "Slide 2">
+                    <img src="{{ url_for('static', filename='photos/product2.jpg') }}" alt="Slide 2">
                 </div>
                 <div class="product-info">
                     <h3>Samsung Galaxy S22</h3>
@@ -57,7 +55,7 @@
             </div>
             <div class="product-card">
                 <div class="product-img">
-                    <img src="photos/product3.jpeg" alt="Pixel">
+                    <img src="{{ url_for('static', filename='photos/product3.jpeg') }}" alt="Pixel">                </div>
                 </div>
                 <div class="product-info">
                     <h3>Google Pixel 6</h3>
@@ -85,6 +83,6 @@
         </div>
     </footer>
 
-    <script src="javascript.js"></script>
+    <script src="{{ url_for('static', filename='javascript.js') }}"></script>
 </body>
 </html>
