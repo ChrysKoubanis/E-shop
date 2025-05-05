@@ -27,3 +27,10 @@
 
 7. ΕΚΤΕΛΕΣΗ:
    python app.py
+
+
+--ΟΔΗΓΙΕΣ ΔΗΜΙΟΥΡΓΙΑΣ ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ
+   -Εγκατασταση Mongodb community server    https://www.mongodb.com/try/download/community
+   -Δημιουργηστε νεο connection και ονομαστε το Eshop
+   -Δεξια απο το Eshop πατηστε το + ,ονομαστε την βαση: eshop_db και το collection: products
+   -Στο products πατηστε ADD DATA και καντε import το json products (Απο τα files του Project)
