@@ -1,15 +1,15 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Αρχική φόρτωση όλων των προϊόντων
     fetchProducts('');
-    
-    // Χειρισμός αναζήτησης
-    document.getElementById('search-button').addEventListener('click', function() {
+
+    // Κουμπί αναζήτησης
+    document.getElementById('search-button').addEventListener('click', function () {
         const searchTerm = document.getElementById('search-input').value;
         fetchProducts(searchTerm);
     });
-    
-    // Επιτρέπει αναζήτηση με Enter
-    document.getElementById('search-input').addEventListener('keypress', function(e) {
+
+    // Enter για αναζήτηση
+    document.getElementById('search-input').addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
             const searchTerm = document.getElementById('search-input').value;
             fetchProducts(searchTerm);
@@ -24,45 +24,42 @@ function fetchProducts(searchTerm) {
             displayProducts(products);
         })
         .catch(error => {
-            console.error('Error:', error);
-            document.getElementById('products-list').innerHTML = 
-                '<div class="error-message">Προέκυψε σφάλμα κατά τη φόρτωση των προϊόντων</div>';
+            console.error('Σφάλμα:', error);
+            document.getElementById('products-list').innerHTML =
+                '<div class="error-message">Σφάλμα κατά τη φόρτωση των προϊόντων</div>';
         });
 }
 
 function displayProducts(products) {
-    const productsContainer = document.getElementById('products-list');
-    
+    const container = document.getElementById('products-list');
+    container.innerHTML = '';
+
     if (products.length === 0) {
-        productsContainer.innerHTML = '<div class="no-results">Δεν βρέθηκαν προϊόντα</div>';
+        container.innerHTML = '<div class="no-results">Δεν βρέθηκαν προϊόντα</div>';
         return;
     }
-    
-    productsContainer.innerHTML = '';
-    
+
     products.forEach(product => {
-        const productElement = document.createElement('div');
-        productElement.className = 'product-item';
-        productElement.innerHTML = `
+        const item = document.createElement('div');
+        item.className = 'product-item';
+        item.innerHTML = `
             <div class="product-image">
                 <img src="${product.image}" alt="${product.name}">
             </div>
             <div class="product-details">
-                <h3 class="product-title">${product.name}</h3>
-                <p class="product-description">${product.description}</p>
+                <h3>${product.name}</h3>
+                <p>${product.description}</p>
                 <div class="product-price">€${product.price}</div>
-                <div class="product-likes">
-                    <i class="fas fa-heart"></i> ${product.likes} Likes
-                </div>
+                <div class="product-likes"><i class="fas fa-heart"></i> ${product.likes} Likes</div>
             </div>
         `;
-        
-        // Προσθήκη event listener για like
-        productElement.querySelector('.product-image').addEventListener('click', () => {
-            likeProduct(product._id);
+
+        // Κλικ για like
+        item.querySelector('.product-image').addEventListener('click', () => {
+            likeProduct(product.id);
         });
-        
-        productsContainer.appendChild(productElement);
+
+        container.appendChild(item);
     });
 }
 
@@ -72,29 +69,13 @@ function likeProduct(productId) {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ id: productId }),
+        body: JSON.stringify({ id: productId })
     })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            // Ενημέρωση του like στην οθόνη
-            const likeElements = document.querySelectorAll('.product-item');
-            likeElements.forEach(element => {
-                const img = element.querySelector('.product-image img');
-                if (img && img.alt === data.product.name) {
-                    const likesElement = element.querySelector('.product-likes');
-                    likesElement.innerHTML = `
-                        <i class="fas fa-heart"></i> ${data.product.likes} Likes
-                    `;
-                    
-                    // Προσθήκη animation
-                    element.querySelector('.product-image').classList.add('liked');
-                    setTimeout(() => {
-                        element.querySelector('.product-image').classList.remove('liked');
-                    }, 1000);
-                }
-            });
-        }
-    })
-    .catch(error => console.error('Error:', error));
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                fetchProducts(document.getElementById('search-input').value); // ανανέωση προϊόντων
+            }
+        })
+        .catch(error => console.error('Σφάλμα:', error));
 }
