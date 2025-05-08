@@ -86,12 +86,17 @@ nav {
   font-size: 1.5rem;
 }
 
-/* ====== Hero ====== */
 .hero {
   position: relative;
   height: 70vh;
   max-height: 500px;
   overflow: hidden;
+}
+
+#slides-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .slide {
@@ -108,14 +113,6 @@ nav {
   opacity: 1;
 }
 
-.slide1 {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../photos/slide1.jpeg');
-}
-
-.slide2 {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../photos/slide2.jpeg');
-}
-
 .hero-content {
   position: absolute;
   top: 50%;
@@ -126,6 +123,13 @@ nav {
   width: 90%;
   max-width: 800px;
 }
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
 
 .hero h1 {
   font-size: 2.5rem;
@@ -420,18 +424,86 @@ footer {
   .hero h1 {
     font-size: 2rem;
   }
+}
 
-  .product-name {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--white);
-    background: rgba(0, 0, 0, 0.5);
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  }
-  
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #444;
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.products-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.category-sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.category-sidebar h3 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.category-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-sidebar ul li {
+  margin: 8px 0;
+}
+
+.category-sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.category-sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.products-section {
+  flex: 1;
+  padding: 20px;
 }

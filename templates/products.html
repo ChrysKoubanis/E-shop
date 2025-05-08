@@ -21,20 +21,46 @@
     </header>
 
     <main class="products-page">
-        <section class="search-section">
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Αναζήτηση προϊόντων...">
-                <button id="search-button"><i class="fas fa-search"></i></button>
-            </div>
-        </section>
-
-        <section class="products-section">
-            <div class="products-container" id="products-list">
-                <!-- Προϊόντα θα προστεθούν δυναμικά μέσω JavaScript -->
-                <div class="loading-message">Φόρτωση προϊόντων...</div>
-            </div>
-        </section>
+        <div class="products-layout">
+            <!-- Αριστερή Στήλη: Κατηγορίες -->
+            <aside class="category-sidebar">
+                <h3>Συσκευές</h3>
+                <ul>
+                    <li><a href="#" data-category="smartphones">Smartphones</a></li>
+                    <li><a href="#" data-category="pcs-laptops">PCs & Laptops</a></li>
+                    <li><a href="#" data-category="tablets">Tablets</a></li>
+                    <li><a href="#" data-category="camera">Camera</a></li>
+                    <li><a href="#" data-category="printers-ink">Printers & Ink</a></li>
+                    <li><a href="#" data-category="tv">TV</a></li>
+                    <li><a href="#" data-category="wearables">Wearables</a></li>
+                    <li><a href="#" data-category="audio">Audio</a></li>
+                </ul>
+    
+                <h3>Αξεσουάρ</h3>
+                <ul>
+                    <li><a href="#" data-category="phone-accessories">Phone Accessories</a></li>
+                    <li><a href="#" data-category="computer-accessories">Computer</a></li>
+                    <li><a href="#" data-category="tablet-accessories">Tablet Accessories</a></li>
+                    <li><a href="#" data-category="camera-accessories">Camera Accessories</a></li>
+                    <li><a href="#" data-category="tv-accessories">TV Accessories</a></li>
+                    <li><a href="#" data-category="wearable-accessories">Wearable Accessories</a></li>
+                </ul>
+            </aside>
+    
+            <!-- Κεντρική Στήλη: Προϊόντα -->
+            <section class="products-section">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Αναζήτηση προϊόντων...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+    
+                <div class="products-container" id="products-list">
+                    <div class="loading-message">Φόρτωση προϊόντων...</div>
+                </div>
+            </section>
+        </div>
     </main>
+    
 
     <footer>
         <div class="footer-container">
@@ -53,7 +79,7 @@
         </div>
     </footer>
 
-    <script src="{{ url_for('static', filename='js/products.js') }}"></script>
+    <script src="static/js/products.js"></script>
     <script>
         // Mobile Menu
         document.querySelector('.menu-toggle').addEventListener('click', () => {

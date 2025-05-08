@@ -13,7 +13,16 @@
             <div class="menu-toggle"><i class="fas fa-bars"></i></div>
             <div class="nav-links">
                 <a href="/">Αρχική</a>
-                <a href="/products">Προϊόντα</a>
+                <div class="dropdown">
+                    <a href="/products" class="dropbtn">Προϊόντα</a>
+                    <div class="dropdown-content">
+                        <a href="/products?category=laptops">Laptops</a>
+                        <a href="/products?category=smartphones">Smartphones</a>
+                        <a href="/products?category=tablets">Tablets</a>
+                        <a href="/products?category=accessories">Αξεσουάρ</a>
+                    </div>
+                </div>
+                
                 <a href="#">Επικοινωνία</a>
             </div>
         </nav>
@@ -25,46 +34,6 @@
             <h1>Νέα Άφιξη Smartphones</h1>
             <p>Ανακαλύψτε τις καλύτερες προσφορές της σεζόν</p>
             <a href="/products" class="btn">Δείτε Τώρα</a>
-        </div>
-    </section>
-    
-      
-
-    <section class="featured">
-        <div class="section-title">
-            <h2>Δημοφιλή Προϊόντα</h2>
-        </div>
-        <div class="products">
-            <div class="product-card">
-                <div class="product-img">
-                    <img src="static/photos/product1.jpg" alt="Slide 1">
-                </div>
-                <div class="product-info">
-                    <h3>iPhone 13 Pro</h3>
-                    <p>6.1" Super Retina XDR</p>
-                    <div class="price">€999</div>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-img">
-                    <img src="static/photos/product2.jpg" alt="Slide 2">
-                </div>
-                <div class="product-info">
-                    <h3>Samsung Galaxy S22</h3>
-                    <p>6.1" Dynamic AMOLED</p>
-                    <div class="price">€899</div>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-img">
-                    <img src="static/photos/product3.jpeg" alt="Pixel">
-                </div>
-                <div class="product-info">
-                    <h3>Google Pixel 6</h3>
-                    <p>6.4" OLED Display</p>
-                    <div class="price">€649</div>
-                </div>
-            </div>
         </div>
     </section>
 

@@ -17,8 +17,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-function fetchProducts(searchTerm) {
-    fetch(`http://127.0.0.1:5000/search?name=${encodeURIComponent(searchTerm)}`)
+function fetchProducts(searchTerm = '', category = '') {
+    let url = `http://127.0.0.1:5000/search?name=${encodeURIComponent(searchTerm)}`;
+    if (category) {
+        url += `&category=${encodeURIComponent(category)}`;
+    }
+
+    fetch(url)
         .then(response => response.json())
         .then(products => {
             displayProducts(products);
@@ -29,6 +34,7 @@ function fetchProducts(searchTerm) {
                 '<div class="error-message">Σφάλμα κατά τη φόρτωση των προϊόντων</div>';
         });
 }
+
 
 function displayProducts(products) {
     const container = document.getElementById('products-list');
