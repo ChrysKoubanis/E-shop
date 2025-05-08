@@ -470,7 +470,7 @@ footer {
 .products-layout {
   display: flex;
   gap: 20px;
-  align-items: flex-start; /* προσθέτουμε αυτό! */
+  align-items: flex-start;
 }
 
 .category-sidebar {
