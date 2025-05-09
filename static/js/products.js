@@ -1,19 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Αρχική φόρτωση όλων των προϊόντων
-    fetchProducts('');
+    fetchProducts('', '');
 
     // Κουμπί αναζήτησης
     document.getElementById('search-button').addEventListener('click', function () {
         const searchTerm = document.getElementById('search-input').value;
-        fetchProducts(searchTerm);
+        fetchProducts(searchTerm, '');
     });
 
     // Enter για αναζήτηση
     document.getElementById('search-input').addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
             const searchTerm = document.getElementById('search-input').value;
-            fetchProducts(searchTerm);
+            fetchProducts(searchTerm, '');
         }
+    });
+
+    // Κλικ σε κατηγορία
+    document.querySelectorAll('[data-category]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const selectedCategory = this.dataset.category;
+            document.getElementById('search-input').value = ''; // Καθάρισε πεδίο αναζήτησης
+            fetchProducts('', selectedCategory); // Φόρτωσε προϊόντα για τη συγκεκριμένη κατηγορία
+        });
     });
 });
 
@@ -34,7 +44,6 @@ function fetchProducts(searchTerm = '', category = '') {
                 '<div class="error-message">Σφάλμα κατά τη φόρτωση των προϊόντων</div>';
         });
 }
-
 
 function displayProducts(products) {
     const container = document.getElementById('products-list');
@@ -80,7 +89,7 @@ function likeProduct(productId) {
         .then(response => response.json())
         .then(data => {
             if (data.status === 'success') {
-                fetchProducts(document.getElementById('search-input').value); // ανανέωση προϊόντων
+                fetchProducts(document.getElementById('search-input').value); // Ανανεώνουμε τα προϊόντα
             }
         })
         .catch(error => console.error('Σφάλμα:', error));

@@ -3,7 +3,7 @@
   --secondary: #9d50bb;
   --accent: #f56a6a;
   --dark: #151414;
-  --light: #f9fdcf;
+  --light: #dcdeba;
   --white: #f9fdcf;
   --transition: all 0.3s ease;
   --shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -284,13 +284,13 @@ footer {
 }
 
 .search-section {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .search-container {
   display: flex;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1rem;
 }
 
 #search-input {
@@ -306,7 +306,7 @@ footer {
   background: var(--primary);
   color: white;
   border: none;
-  padding: 0 1.5rem;
+  padding: 1.5rem;
   border-radius: 0 50px 50px 0;
   cursor: pointer;
   transition: var(--transition);
@@ -319,7 +319,7 @@ footer {
 .products-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .product-item {
@@ -436,8 +436,14 @@ footer {
 .dropbtn {
   color: white;
   text-decoration: none;
-  padding: 10px;
-  display: block;
+  font-weight: 500;
+  position: relative;
+  padding: 0; /* Αφαίρεση εσωτερικού padding */
+  margin: 0;
+  height: 100%; /* Ίδιο ύψος με τα άλλα links */
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem; /* ίδιο πλάτος με .nav-links a */
 }
 
 /* Dropdown content (hidden by default) */
