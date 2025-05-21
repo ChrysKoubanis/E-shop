@@ -1,72 +1,226 @@
 [
   {
-    "id": 1,
     "name": "iPhone 15 Pro",
-    "category": "smartphone",
-    "price": 1299,
-    "likes": 152
+    "category": "Smartphones",
+    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=jpeg&qlt=90&.v=1692919157828",
+    "id": 1,
+    "likes": 68,
+    "price": 1249
   },
   {
-    "id": 2,
     "name": "Samsung Galaxy S24 Ultra",
-    "category": "smartphone",
-    "price": 1199,
-    "likes": 140
+    "category": "Smartphones",
+    "photo": "https://images.samsung.com/is/image/samsung/assets/global/galaxy-s24-ultra/gallery/galaxy-s24-ultra-highlights-kv-img.jpg",
+    "id": 2,
+    "likes": 73,
+    "price": 1399
   },
   {
-    "id": 3,
-    "name": "Google Pixel 8 Pro",
-    "category": "smartphone",
-    "price": 999,
-    "likes": 90
-  },
-  {
-    "id": 4,
-    "name": "Dell XPS 15",
-    "category": "laptop",
-    "price": 1899,
-    "likes": 80
-  },
-  {
-    "id": 5,
     "name": "MacBook Air M3",
-    "category": "laptop",
-    "price": 1299,
-    "likes": 110
+    "category": "PCs & Laptops",
+    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mb-air-13-midnight-select-202402?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1707260965499",
+    "id": 3,
+    "likes": 128,
+    "price": 1299
   },
   {
+    "name": "Dell XPS 15",
+    "category": "PCs & Laptops",
+    "photo": "https://i.dell.com/sites/csimages/Video_Imagery/all/xps-15-9530-laptop.png",
+    "id": 4,
+    "likes": 91,
+    "price": 1999
+  },
+  {
+    "name": "iPad Air (2024)",
+    "category": "Tablets",
+    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-2024-hero?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1713282794329",
+    "id": 5,
+    "likes": 80,
+    "price": 799
+  },
+  {
+    "name": "Samsung Galaxy Tab S9",
+    "category": "Tablets",
+    "photo": "https://images.samsung.com/is/image/samsung/p6pim/levant/galaxy-tab-s9/gallery/levant-galaxy-tab-s9-sm-x710-436739-sm-x710nzahmea-535528441",
     "id": 6,
-    "name": "Asus ROG Zephyrus G14",
-    "category": "laptop",
-    "price": 1599,
-    "likes": 70
+    "likes": 150,
+    "price": 999
   },
   {
+    "name": "Canon EOS R10",
+    "category": "Camera",
+    "photo": "https://cdn.mos.cms.futurecdn.net/r57KdGeRElqDZQZP2TuYPK-1200-80.jpg",
     "id": 7,
-    "name": "iPad Pro 12.9",
-    "category": "tablet",
-    "price": 1199,
-    "likes": 100
+    "likes": 131,
+    "price": 1099
   },
   {
+    "name": "Sony Alpha ZV-E10",
+    "category": "Camera",
+    "photo": "https://www.sony.com/image/2a2d901f8e9a04d8f8c3b059321243ad?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF",
     "id": 8,
-    "name": "Samsung Galaxy Tab S9 Ultra",
-    "category": "tablet",
-    "price": 999,
-    "likes": 85
+    "likes": 39,
+    "price": 799
   },
   {
+    "name": "HP DeskJet 2755e",
+    "category": "Printers & Ink",
+    "photo": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06511337.png",
     "id": 9,
-    "name": "Microsoft Surface Pro 9",
-    "category": "tablet",
-    "price": 1099,
-    "likes": 60
+    "likes": 10,
+    "price": 89
   },
   {
+    "name": "Canon PIXMA TR4720",
+    "category": "Printers & Ink",
+    "photo": "https://m.media-amazon.com/images/I/81lt6zv3S7L.jpg",
     "id": 10,
-    "name": "Lenovo Tab P12 Pro",
-    "category": "tablet",
-    "price": 799,
-    "likes": 50
+    "likes": 46,
+    "price": 129
+  },
+  {
+    "name": "LG OLED C3 55\"",
+    "category": "TV",
+    "photo": "https://www.lg.com/us/images/tvs/md08003625/gallery/desktop-01.jpg",
+    "id": 11,
+    "likes": 120,
+    "price": 1399
+  },
+  {
+    "name": "Samsung QN90C Neo QLED 65\"",
+    "category": "TV",
+    "photo": "https://image-us.samsung.com/SamsungUS/home/televisions-and-home-theater/tvs/qn90c/gallery/65Qn90C_1.jpg",
+    "id": 12,
+    "likes": 133,
+    "price": 1799
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "category": "Wearables",
+    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-series-9-digitalmat-gallery-1-202309?wid=364&hei=333&fmt=png-alpha&.v=1692661571792",
+    "id": 13,
+    "likes": 71,
+    "price": 449
+  },
+  {
+    "name": "Samsung Galaxy Watch6",
+    "category": "Wearables",
+    "photo": "https://images.samsung.com/is/image/samsung/assets/global/watches/galaxy-watch6/gallery/watch6-hero.jpg",
+    "id": 14,
+    "likes": 53,
+    "price": 349
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "category": "Audio",
+    "photo": "https://cdn.sony.com/image/8a38425b5318125e1cc810a912ef14b0?fmt=jpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF",
+    "id": 15,
+    "likes": 109,
+    "price": 419
+  },
+  {
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "category": "Audio",
+    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2nd-gen-2023?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1694027078352",
+    "id": 16,
+    "likes": 109,
+    "price": 299
+  },
+  {
+    "name": "Spigen Ultra Hybrid iPhone Case",
+    "category": "Phone Accessories",
+    "photo": "https://cdn.shopify.com/s/files/1/0053/3618/8578/products/ACS05887_iPhone15Pro_Max_UltraHybrid_CrystalClear_Main_01_800x.jpg",
+    "id": 17,
+    "likes": 145,
+    "price": 25
+  },
+  {
+    "name": "Anker 313 Wireless Charger",
+    "category": "Phone Accessories",
+    "photo": "https://m.media-amazon.com/images/I/61GuKzGWdrL._AC_SX679_.jpg",
+    "id": 18,
+    "likes": 154,
+    "price": 19
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "category": "Computer Accessories",
+    "photo": "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-gallery-graphite-1.png",
+    "id": 19,
+    "likes": 21,
+    "price": 109
+  },
+  {
+    "name": "Keychron K8 Wireless Keyboard",
+    "category": "Computer Accessories",
+    "photo": "https://www.keychron.com/cdn/shop/products/Keychron-K8-TKL-Wireless-Mechanical-Keyboard-for-Mac-and-Windows-RGB-Backlight-Keychron_6_600x.jpg",
+    "id": 20,
+    "likes": 165,
+    "price": 89
+  },
+  {
+    "name": "Apple Pencil Pro",
+    "category": "Tablet Accessories",
+    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MUWA3?wid=532&hei=582&fmt=png-alpha&.v=1713282793868",
+    "id": 21,
+    "likes": 185,
+    "price": 149
+  },
+  {
+    "name": "Logitech Combo Touch",
+    "category": "Tablet Accessories",
+    "photo": "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/logitech/en/products/tablet-keyboards/combo-touch/gallery/combo-touch-ipad-pro11-hero.png",
+    "id": 22,
+    "likes": 192,
+    "price": 199
+  },
+  {
+    "name": "Peak Design Slide Camera Strap",
+    "category": "Camera Accessories",
+    "photo": "https://cdn.peakdesign.com/image/products/slide/black/SL-BK-3-hero.jpg",
+    "id": 23,
+    "likes": 165,
+    "price": 70
+  },
+  {
+    "name": "SanDisk Extreme PRO SD Card 128GB",
+    "category": "Camera Accessories",
+    "photo": "https://m.media-amazon.com/images/I/81C-rDdfSUL.jpg",
+    "id": 24,
+    "likes": 187,
+    "price": 45
+  },
+  {
+    "name": "Samsung One Connect Box",
+    "category": "TV Accessories",
+    "photo": "https://image-us.samsung.com/SamsungUS/home/televisions-and-home-theater/tvs/qn90c/gallery/one-connect.jpg",
+    "id": 25,
+    "likes": 145,
+    "price": 300
+  },
+  {
+    "name": "VESA TV Wall Mount",
+    "category": "TV Accessories",
+    "photo": "https://m.media-amazon.com/images/I/61TbHoF+14L.jpg",
+    "id": 26,
+    "likes": 37,
+    "price": 35
+  },
+  {
+    "name": "Belkin BoostCharge USB-C Cable",
+    "category": "Wearable Accessories",
+    "photo": "https://m.media-amazon.com/images/I/61KeW6H3ZxL._AC_SX679_.jpg",
+    "id": 27,
+    "likes": 167,
+    "price": 20
+  },
+  {
+    "name": "Nomad Rugged Band for Apple Watch",
+    "category": "Wearable Accessories",
+    "photo": "https://nomad.imgix.net/products/NM1AB10R00-Main.jpg",
+    "id": 28,
+    "likes": 190,
+    "price": 60
   }
 ]

@@ -31,6 +31,18 @@ def search_products():
         products = list(db.products.find(query, {'_id': 0}).sort('likes', -1))
     return jsonify(products)
 
+@app.route('/search-by-category', methods=['GET'])
+def search_by_category():
+    category = request.args.get('category', '')
+    if not category:
+        return jsonify({'error': 'Missing category parameter'}), 400
+    
+    query = {"category": {"$regex": f"^{category}$", "$options": "i"}}
+    products = list(db.products.find(query, {'_id': 0}).sort('likes', -1))
+    
+    return jsonify(products)
+
+
 @app.route('/like', methods=['POST'])
 def like_product():
     try:
