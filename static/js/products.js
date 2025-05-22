@@ -68,7 +68,7 @@ function displayProducts(products) {
         item.className = 'product-item';
         item.innerHTML = `
             <div class="product-image">
-                <img src="${product.image}" alt="${product.name}">
+                <img src="${product.photo}" alt="${product.name}">
             </div>
             <div class="product-details">
                 <h3>${product.name}</h3>
