@@ -28,15 +28,21 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function fetchProducts(searchTerm = '', category = '') {
-    let url = `http://127.0.0.1:5000/search?name=${encodeURIComponent(searchTerm)}`;
-    if (category) {
-        url += `&category=${encodeURIComponent(category)}`;
+    let url = '';
+
+    if (searchTerm) {
+        url = `http://127.0.0.1:5000/search?name=${encodeURIComponent(searchTerm)}`;
+    } else if (category) {
+        url = `http://127.0.0.1:5000/search-by-category?category=${encodeURIComponent(category)}`;
+    } else {
+        // Αν δεν υπάρχει ούτε όνομα ούτε κατηγορία, φέρε όλα τα προϊόντα
+        url = `http://127.0.0.1:5000/search`;
     }
 
     fetch(url)
         .then(response => response.json())
         .then(products => {
-            console.log("[DEBUG] Ληφθέντα προϊόντα:", products);  // 🔥
+            console.log("[DEBUG] Προϊόντα:", products);
             displayProducts(products);
         })
         .catch(error => {
@@ -45,6 +51,7 @@ function fetchProducts(searchTerm = '', category = '') {
                 '<div class="error-message">Σφάλμα κατά τη φόρτωση των προϊόντων</div>';
         });
 }
+
 
 
 function displayProducts(products) {
