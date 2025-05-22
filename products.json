@@ -10,7 +10,7 @@
   {
     "name": "Samsung Galaxy S24 Ultra",
     "category": "Smartphones",
-    "photo": "https://bbpcdn.pstatic.gr/bpimg3/9Ra2T/1TofLw_SX340/1734611790/samsung-galaxy-s24-ultra-256gb.webp",
+    "photo": "https://hnsgsfp.imgix.net/9/images/detailed/100/Samsung_Galaxy_S24U_01_Gray_34hp-nw.JPG?fit=fill&bg=0FFF&w=1536&h=900&auto=format,compress",
     "id": 2,
     "likes": 73,
     "price": 1399
@@ -18,7 +18,7 @@
   {
     "name": "MacBook Air M3",
     "category": "PCs & Laptops",
-    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mb-air-13-midnight-select-202402?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1707260965499",
+    "photo": "https://techblog.gr/wp-content/uploads/2024/02/MacBook-Air-15-Inch-Feature-Purple-1024x572.jpg",
     "id": 3,
     "likes": 128,
     "price": 1299
@@ -26,7 +26,7 @@
   {
     "name": "Dell XPS 15",
     "category": "PCs & Laptops",
-    "photo": "https://i.dell.com/sites/csimages/Video_Imagery/all/xps-15-9530-laptop.png",
+    "photo": "https://www.notebookcheck.net/uploads/tx_nbc2/DellXPS15-9510__1__02.jpg",
     "id": 4,
     "likes": 91,
     "price": 1999
@@ -42,7 +42,7 @@
   {
     "name": "Samsung Galaxy Tab S9",
     "category": "Tablets",
-    "photo": "https://images.samsung.com/is/image/samsung/p6pim/levant/galaxy-tab-s9/gallery/levant-galaxy-tab-s9-sm-x710-436739-sm-x710nzahmea-535528441",
+    "photo": "https://bbpcdn.pstatic.gr/P/bpimg130/content26504_SX500/1692969951/samsung-galaxy-tab-s9-11-128gb-mpataria-me-megalh-diarkeia.webp",
     "id": 6,
     "likes": 150,
     "price": 999
