@@ -21,14 +21,16 @@ def products():
 
 @app.route('/search', methods=['GET'])
 def search_products():
-    name = request.args.get('name', '')
-    if name == '':
-        products = list(db.products.find({}, {'_id': 0}))
-    else:
-        #query = {"name": {"$regex": f"^{name}$", "$options": "i"}} # Search for exact match (case insensitive)
-        query = {"name": {"$regex": name.replace(" ", ".*"), "$options": "i"}}  # Οπως στο τελικο project
+    name = request.args.get('name', '').strip()
+    category = request.args.get('category', '').strip()
 
-        products = list(db.products.find(query, {'_id': 0}).sort('likes', -1))
+    query = {}
+    if name:
+        query['name'] = {"$regex": name.replace(" ", ".*"), "$options": "i"}
+    if category:
+        query['category'] = {"$regex": f"^{category}$", "$options": "i"}
+
+    products = list(db.products.find(query, {'_id': 0}).sort('likes', -1))
     return jsonify(products)
 
 @app.route('/search-by-category', methods=['GET'])

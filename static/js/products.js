@@ -36,6 +36,7 @@ function fetchProducts(searchTerm = '', category = '') {
     fetch(url)
         .then(response => response.json())
         .then(products => {
+            console.log("[DEBUG] Ληφθέντα προϊόντα:", products);  // 🔥
             displayProducts(products);
         })
         .catch(error => {
@@ -44,6 +45,7 @@ function fetchProducts(searchTerm = '', category = '') {
                 '<div class="error-message">Σφάλμα κατά τη φόρτωση των προϊόντων</div>';
         });
 }
+
 
 function displayProducts(products) {
     const container = document.getElementById('products-list');
