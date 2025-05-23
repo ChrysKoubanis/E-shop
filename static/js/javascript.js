@@ -22,13 +22,10 @@ async function loadSlideshow() {
             slide.classList.add('slide');
             if (index === 0) slide.classList.add('active'); // Το πρώτο ενεργό
 
-            slide.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/static/photos/${product.id}.jpg')`;
+            slide.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${product.photo}')`;
 
             const nameDiv = document.createElement('div');
-            nameDiv.classList.add('product-name');
-            nameDiv.innerText = product.name;
-
-            slide.appendChild(nameDiv);
+            
             container.appendChild(slide);
         });
 

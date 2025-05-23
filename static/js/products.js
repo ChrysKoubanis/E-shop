@@ -1,3 +1,5 @@
+let currentCategory = '';
+
 document.addEventListener('DOMContentLoaded', function () {
     // Αρχική φόρτωση όλων των προϊόντων
     fetchProducts('', '');
@@ -21,10 +23,16 @@ document.addEventListener('DOMContentLoaded', function () {
         link.addEventListener('click', function (e) {
             e.preventDefault();
             const selectedCategory = this.dataset.category;
-            document.getElementById('search-input').value = ''; // Καθάρισε πεδίο αναζήτησης
-            fetchProducts('', selectedCategory); // Φόρτωσε προϊόντα για τη συγκεκριμένη κατηγορία
+
+         // Αν είναι ήδη επιλεγμένη, μην κάνεις τίποτα
+            if (selectedCategory === currentCategory) return;
+
+                currentCategory = selectedCategory;
+            document.getElementById('search-input').value = ''; // Καθάρισε το πεδίο αναζήτησης
+            fetchProducts('', selectedCategory); // Φόρτωσε προϊόντα για τη νέα κατηγορία
         });
     });
+
 });
 
 function fetchProducts(searchTerm = '', category = '') {
@@ -98,7 +106,8 @@ function likeProduct(productId) {
         .then(response => response.json())
         .then(data => {
             if (data.status === 'success') {
-                fetchProducts(document.getElementById('search-input').value); // Ανανεώνουμε τα προϊόντα
+                const currentSearch = document.getElementById('search-input').value;
+                fetchProducts(currentSearch, currentCategory);
             }
         })
         .catch(error => console.error('Σφάλμα:', error));
