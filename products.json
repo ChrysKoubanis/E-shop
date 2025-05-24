@@ -222,5 +222,53 @@
     "id": 28,
     "likes": 190,
     "price": 60
+  },
+  {
+    "name": "Laptop HP 15-FD0027NV 15,6'' FHD Micro-Edge",
+    "category": "PCs & Laptops",
+    "photo": "https://d.scdn.gr/images/sku_images/076109/76109148/20230517113957_b589a9a0.jpeg",
+    "id": 29,
+    "likes": 128,
+    "price": 649.00
+  },
+  {
+    "name": "Phone Case Apple iPhone 16 Pro Max - Tune UltraMag - Clear",
+    "category": "Phone Accessories",
+    "photo": "https://external.webstorage.gr/mmimages/image/23/24/49/76/1967596-TUNE-hero-560x560.jpg",
+    "id": 30,
+    "likes": 58,
+    "price": 25.99
+  },
+  {
+    "name": "Phone Case Samsung Galaxy S25 Ultra - Samsung Silicone Case - Black",
+    "category": "Phone Accessories",
+    "photo": "https://external.webstorage.gr/mmimages/image/99/13/57/45/1994539-SAMSUNG-8806095879482-hero-560x560.jpg",
+    "id": 31,
+    "likes": 22,
+    "price": 40.99
+  },
+  {
+    "name": "Cable Apple Lightning σε USB-C 1m - White",
+    "category": "Phone Accessories",
+    "photo": "https://external.webstorage.gr/mmimages/image/32/50/40/16/1913320-APPLE-hero-560x560.jpg",
+    "id": 32,
+    "likes": 38,
+    "price": 24.99
+  },
+  {
+    "name": "Tempered Glass Apple iPhone 15/iPhone 15 Pro/iPhone 16 - Tune Elite Premium Tempered Glass",
+    "category": "Phone Accessories",
+    "photo": "https://external.webstorage.gr/mmimages/image/23/46/31/28/1850810-TUNE-APPLECASE-hero-560x560.jpg",
+    "id": 33,
+    "likes": 75,
+    "price": 10
+  },
+  {
+    "name": "",
+    "category": "Phone Accessories",
+    "photo": "https://external.webstorage.gr/mmimages/image/23/46/31/28/1850810-TUNE-APPLECASE-hero-560x560.jpg",
+    "id": 33,
+    "likes": 75,
+    "price": 10
   }
 ]
