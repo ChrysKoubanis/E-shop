@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechShop - Καλώς Ήρθατε</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 <body>
     <header>
         <nav>
@@ -16,30 +17,29 @@
                 <div class="dropdown">
                     <a href="/products" class="dropbtn">Products</a>
                     <div class="dropdown-content">
-                        <a href="/products?category=products">All Products</a>
-                        <a href="/products?category=smartphones">Smartphones</a>
-                        <a href="/products?category=laptops">PCs & Laptops</a>
-                        <a href="/products?category=tablets">Tablets</a>
-                        <a href="/products?category=camera">Camera</a>
-                        <a href="/products?category=printers">Printers & Ink</a>
-                        <a href="/products?category=tv">TV</a>
-                        <a href="/products?category=wearables">Wearables</a>
-                        <a href="/products?category=audio">Audio</a>
-                        <a href="/products?category=accessories">Phone Accessories</a>
-                        <a href="/products?category=accessories">Computer Accessories</a>
-                        <a href="/products?category=accessories">Tablet Accessories</a>
-                        <a href="/products?category=accessories">Camera Accessories</a>
-                        <a href="/products?category=accessories">TV Accessories</a>
-                        <a href="/products?category=accessories">Wearable Accessories</a>
+                        <a href="/products?category=">All Products</a>
+                        <a href="/products?category=Smartphones">Smartphones</a>
+                        <a href="/products?category=Laptops">PCs & Laptops</a>
+                        <a href="/products?category=Tablets">Tablets</a>
+                        <a href="/products?category=Camera">Camera</a>
+                        <a href="/products?category=Printers">Printers & Ink</a>
+                        <a href="/products?category=Tv">TV</a>
+                        <a href="/products?category=Wearables">Wearables</a>
+                        <a href="/products?category=Audio">Audio</a>
+                        <a href="/products?category=Phone Accessories">Phone Accessories</a>
+                        <a href="/products?category=Computer Accessories">Computer Accessories</a>
+                        <a href="/products?category=Tablet Accessories">Tablet Accessories</a>
+                        <a href="/products?category=Camera Accessories">Camera Accessories</a>
+                        <a href="/products?category=TV Accessories">TV Accessories</a>
+                        <a href="/products?category=Wearable Accessories">Wearable Accessories</a>
                     </div>
                 </div>
-                
             </div>
         </nav>
     </header>
 
     <section class="hero">
-        <div id="slideshow-container"></div> <!-- ΕΔΩ θα μπουν δυναμικά -->
+        <div id="slideshow-container"></div> <!-- Τα δημοφιλή προϊόντα θα μπουν δυναμικά -->
         <div class="hero-content">
             <h1>New Arrival: Next-Gen Smartphones</h1>
             <p>Discover the best Offers now</p>
@@ -64,6 +64,6 @@
         </div>
     </footer>
 
-<script src="static/js/javascript.js"></script>
+    <script src="{{ url_for('static', filename='js/javascript.js') }}"></script>
 </body>
 </html>
