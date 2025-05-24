@@ -30,7 +30,7 @@ def search_products():
     if category:
         query['category'] = {"$regex": f"^{category}$", "$options": "i"}
 
-    products = list(db.products.find(query, {'_id': 0}).sort('likes', -1))
+    products = list(db.products.find(query, {'_id': 0}))  # Χωρίς sort
     return jsonify(products)
 
 @app.route('/search-by-category', methods=['GET'])
@@ -40,7 +40,7 @@ def search_by_category():
         return jsonify({'error': 'Missing category parameter'}), 400
     
     query = {"category": {"$regex": f"^{category}$", "$options": "i"}}
-    products = list(db.products.find(query, {'_id': 0}).sort('likes', -1))
+    products = list(db.products.find(query, {'_id': 0}))  # Χωρίς sort
     
     return jsonify(products)
 
