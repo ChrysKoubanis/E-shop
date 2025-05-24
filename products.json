@@ -5,7 +5,7 @@
     "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=jpeg&qlt=90&.v=1692919157828",
     "id": 1,
     "likes": 68,
-    "price": 1249
+    "price": 1249.00
   },
   {
     "name": "Samsung Galaxy S24 Ultra",
@@ -13,7 +13,7 @@
     "photo": "https://hnsgsfp.imgix.net/9/images/detailed/100/Samsung_Galaxy_S24U_01_Gray_34hp-nw.JPG?fit=fill&bg=0FFF&w=1536&h=900&auto=format,compress",
     "id": 2,
     "likes": 73,
-    "price": 1399
+    "price": 1399.00
   },
   {
     "name": "MacBook Air M3",
@@ -21,7 +21,7 @@
     "photo": "https://techblog.gr/wp-content/uploads/2024/02/MacBook-Air-15-Inch-Feature-Purple-1024x572.jpg",
     "id": 3,
     "likes": 210,
-    "price": 1299
+    "price": 1299.00
   },
   {
     "name": "Dell XPS 15",
@@ -29,7 +29,7 @@
     "photo": "https://www.notebookcheck.net/uploads/tx_nbc2/DellXPS15-9510__1__02.jpg",
     "id": 4,
     "likes": 91,
-    "price": 1999
+    "price": 1999.00
   },
   {
     "name": "iPad Air (2024)",
@@ -37,7 +37,7 @@
     "photo": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-air-storage-select-202405-13inch-purple-wificell_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=TENLTVRoeFdHUUI5ZE1ZZmxpQUlNMm5pQUoxb0NIVEJFSjRVRzZ4dzV5VHVrb3Y0NW4rdlkycGt1OWk1OFQya2tieWZMUUtVeUFXdlRzRzJDL3JyOTVmbTBuZmdjbmVyUEN6U1pnb2VjUDh3Qjhvd1BnZkhnUFFYU1JJMGh5alFCRksrL0FQeDM1NVFET3ZLY0lxV1FYNXFNVzc5YkZmK2I4YzJ4ZndkZUdj&traceId=1",
     "id": 5,
     "likes": 80,
-    "price": 799
+    "price": 799.99
   },
   {
     "name": "Samsung Galaxy Tab S9",
@@ -45,7 +45,7 @@
     "photo": "https://bbpcdn.pstatic.gr/P/bpimg130/content26504_SX500/1692969951/samsung-galaxy-tab-s9-11-128gb-mpataria-me-megalh-diarkeia.webp",
     "id": 6,
     "likes": 150,
-    "price": 999
+    "price": 999.99
   },
   {
     "name": "Canon EOS R10",
@@ -53,7 +53,7 @@
     "photo": "https://www.eos-magazine.com/system/cameras/mirrorless/images/canon-eos-r10/Canon-EOS_R10_4.jpeg",
     "id": 7,
     "likes": 131,
-    "price": 1099
+    "price": 1099.00
   },
   {
     "name": "Sony Alpha ZV-E10",
@@ -61,7 +61,7 @@
     "photo": "https://www.katerelos.gr/images/2021/07/1_CX88700_front_black.png",
     "id": 8,
     "likes": 39,
-    "price": 799
+    "price": 799.99
   },
   {
     "name": "HP DeskJet 2755e",
@@ -69,7 +69,7 @@
     "photo": "https://5.imimg.com/data5/SELLER/Default/2022/9/GK/KZ/BK/5337988/hp-deskjet-2332-all-in-one-printer-500x500.jpeg",
     "id": 9,
     "likes": 10,
-    "price": 89
+    "price": 89.00
   },
   {
     "name": "Canon PIXMA TR4720",
@@ -77,7 +77,7 @@
     "photo": "https://www.iptvsat.gr/wp-content/uploads/2021/08/Canon_PIXMA_TR_4720_Printer_web.jpg",
     "id": 10,
     "likes": 46,
-    "price": 129
+    "price": 129.99
   },
   {
     "name": "LG OLED C3 55\"",
@@ -85,7 +85,7 @@
     "photo": "https://5.imimg.com/data5/SELLER/Default/2024/2/386823625/FD/WZ/TF/60302794/lg-42c3-smart-tv-500x500.png",
     "id": 11,
     "likes": 120,
-    "price": 1399
+    "price": 1399.99
   },
   {
     "name": "Samsung QN90C Neo QLED 65\"",
@@ -93,7 +93,7 @@
     "photo": "https://media.wired.com/photos/65984591992357920ef59271/master/pass/Samsung-QN90C-Review-Featured-Gear.jpg",
     "id": 12,
     "likes": 133,
-    "price": 1799
+    "price": 1799.99
   },
   {
     "name": "Apple Watch Series 9",
@@ -101,7 +101,7 @@
     "photo": "https://papaxaralabous.gr/20465-large_default/apple-watch-series-9-mr9j3qr-a-gps-45mm-light-pink-sport-loop.jpg",
     "id": 13,
     "likes": 71,
-    "price": 449
+    "price": 449.99
   },
   {
     "name": "Samsung Galaxy Watch6",
@@ -109,7 +109,7 @@
     "photo": "https://www.samsungshop.tn/26174-large_default/galaxy-watch-6-40mm-prix-tunisie.jpg",
     "id": 14,
     "likes": 53,
-    "price": 349
+    "price": 349.99
   },
   {
     "name": "Sony WH-1000XM5",
@@ -117,7 +117,7 @@
     "photo": "https://www.sony.co.th/image/6539959b6c50b04c5cec4e23134c1137?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9",
     "id": 15,
     "likes": 109,
-    "price": 419
+    "price": 419.99
   },
   {
     "name": "Apple AirPods Pro (2nd Gen)",
@@ -125,7 +125,7 @@
     "photo": "https://helios-i.mashable.com/imagery/articles/0057lJ6JXRu4oKaQeRcjARh/hero-image.fill.size_1248x702.v1690983872.png",
     "id": 16,
     "likes": 109,
-    "price": 299
+    "price": 299.99
   },
   {
     "name": "Spigen Ultra Hybrid iPhone Case",
@@ -133,7 +133,7 @@
     "photo": "https://microcenter.gr/image/cache/products7/F8809896749190-600x315.jpg",
     "id": 17,
     "likes": 145,
-    "price": 25
+    "price": 25.00
   },
   {
     "name": "Anker 313 Wireless Charger",
@@ -141,7 +141,7 @@
     "photo": "https://techgearmnl.com/cdn/shop/products/AnkerWirelessCharger-00.png?v=1606642214",
     "id": 18,
     "likes": 154,
-    "price": 19
+    "price": 19.99
   },
   {
     "name": "Logitech MX Master 3S",
@@ -149,7 +149,7 @@
     "photo": "https://jmau.imgix.net/media/catalog/product/9/1/910-005700-logitech-mx-master-3-wireless-mouse-for-mac.jpg?auto=compress&auto=format&fill-color=FFFFFF&fit=fill&fill=solid&w=496&h=279",
     "id": 19,
     "likes": 21,
-    "price": 109
+    "price": 109.99
   },
   {
     "name": "Keychron K8 Wireless Keyboard",
@@ -157,7 +157,7 @@
     "photo": "https://m.media-amazon.com/images/I/61OS8Ptfl2L.jpg",
     "id": 20,
     "likes": 165,
-    "price": 89
+    "price": 89.99
   },
   {
     "name": "Apple Pencil Pro",
@@ -165,7 +165,7 @@
     "photo": "https://istyle.ae/media/oander/news/article/apple-pencil-pro-vs-pencil-2nd-gen-blog-picture.jpg",
     "id": 21,
     "likes": 185,
-    "price": 149
+    "price": 149.99
   },
   {
     "name": "Logitech Combo Touch",
@@ -173,7 +173,7 @@
     "photo": "https://i.ytimg.com/vi/M9SBpBG-gTU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGC4gUyh_MA8=&rs=AOn4CLBYyHM3d8WLmDmmZVHN_HMvPWQZlQ",
     "id": 22,
     "likes": 50,
-    "price": 199
+    "price": 199.99
   },
   {
     "name": "Peak Design Slide Camera Strap",
@@ -181,7 +181,7 @@
     "photo": "https://pd-ima.imastudent.com/wp-content/uploads/2022/03/slideliteash-scaled-600x400.jpg",
     "id": 23,
     "likes": 165,
-    "price": 70
+    "price": 70.00
   },
   {
     "name": "SanDisk Extreme PRO SD Card 128GB",
@@ -189,7 +189,7 @@
     "photo": "https://gnet.gr/image/cache/catalog/products/nc/image/catalog/product-images-odoo/1p7snd-sdsqxcd-128g-gn6ma-1000x1000.png",
     "id": 24,
     "likes": 51,
-    "price": 45
+    "price": 45.00
   },
   {
     "name": "Samsung One Connect Box",
@@ -197,7 +197,7 @@
     "photo": "https://www.customavi.ca/wp-content/uploads/2024/08/One-Connect-Box-2021.jpg",
     "id": 25,
     "likes": 145,
-    "price": 300
+    "price": 300.00
   },
   {
     "name": "VESA TV Wall Mount",
@@ -205,7 +205,7 @@
     "photo": "https://webobjects2.cdw.com/is/image/CDW/4504736?wid=784&hei=477&resMode=bilin&fit=fit,1",
     "id": 26,
     "likes": 37,
-    "price": 35
+    "price": 35.00
   },
   {
     "name": "Belkin BoostCharge USB-C Cable",
@@ -213,7 +213,7 @@
     "photo": "https://hnsfpau.imgix.net/5/images/detailed/141/4940751_1.jpg?fit=fill&bg=0FFF&w=1500&h=844&auto=format,compress",
     "id": 27,
     "likes": 167,
-    "price": 20
+    "price": 20.00
   },
   {
     "name": "Nomad Rugged Band for Apple Watch",
@@ -221,7 +221,7 @@
     "photo": "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/wm/2024/02/nomad-rugged-case-hero.jpg",
     "id": 28,
     "likes": 190,
-    "price": 60
+    "price": 60.00
   },
   {
     "name": "Laptop HP 15-FD0027NV 15,6'' FHD Micro-Edge",
@@ -234,7 +234,7 @@
   {
     "name": "Phone Case Apple iPhone 16 Pro Max - Tune UltraMag - Clear",
     "category": "Phone Accessories",
-    "photo": "https://external.webstorage.gr/mmimages/image/23/24/49/76/1967596-TUNE-hero-560x560.jpg",
+    "photo": "https://m.media-amazon.com/images/I/61UCicxlOYL.jpg",
     "id": 30,
     "likes": 58,
     "price": 25.99
@@ -242,7 +242,7 @@
   {
     "name": "Phone Case Samsung Galaxy S25 Ultra - Samsung Silicone Case - Black",
     "category": "Phone Accessories",
-    "photo": "https://external.webstorage.gr/mmimages/image/99/13/57/45/1994539-SAMSUNG-8806095879482-hero-560x560.jpg",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhIQHvslzjAjG5y_AgMpSSXifjrxOIVkktw&s",
     "id": 31,
     "likes": 22,
     "price": 40.99
@@ -261,14 +261,30 @@
     "photo": "https://external.webstorage.gr/mmimages/image/23/46/31/28/1850810-TUNE-APPLECASE-hero-560x560.jpg",
     "id": 33,
     "likes": 75,
-    "price": 10
+    "price": 10.00
   },
   {
-    "name": "",
+    "name": "Powerbank Crystal Audio PBK6K 30.000mAh - Black",
     "category": "Phone Accessories",
-    "photo": "https://external.webstorage.gr/mmimages/image/23/46/31/28/1850810-TUNE-APPLECASE-hero-560x560.jpg",
-    "id": 33,
-    "likes": 75,
-    "price": 10
+    "photo": "https://b2b.damkalidis.gr/image/cache/catalog/photosb2b/CRYSTAL_AUDIO/381613/381613_0-900x900.jpg",
+    "id": 34,
+    "likes": 100,
+    "price": 49.99
+  },
+  {
+    "name": "Powerbank Tune Tune On the Go 10.000mAh- Black",
+    "category": "Phone Accessories",
+    "photo": "https://c.scdn.gr/images/sku_main_images/030636/30636713/xlarge_20210826161819_veger_power_bank_vp3008pd_30000mah_20w_me_grigori_fortisi_kai_usb_c_mayro.jpeg",
+    "id": 35,
+    "likes": 15,
+    "price": 23.99
+  },
+  {
+    "name": "Charger Tune USB-C σε Lightning 20W 1.5m - White",
+    "category": "Phone Accessories",
+    "photo": "https://external.webstorage.gr/mmimages/image/76/31/91/32/1969688-TUNE-0756740830802-hero-560x560.jpg",
+    "id": 36,
+    "likes": 52,
+    "price": 30.99
   }
 ]
