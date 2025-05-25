@@ -518,3 +518,78 @@ footer {
   flex: 1;
   padding: 20px;
 }
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #f9fdcf;
+    padding: 3rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.newsletter-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.newsletter p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter-form input {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 60%;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    padding: 0.8rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #45a049;
+}
+
+.newsletter-note {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+@media (max-width: 600px) {
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .newsletter-form input {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .newsletter-form button {
+        width: 100%;
+    }
+}

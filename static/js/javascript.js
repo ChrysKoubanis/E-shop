@@ -50,5 +50,15 @@ function startSlideshow() {
     }, 5000);
 }
 
+// Newsletter form submission
+document.querySelector('.newsletter-form')?.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const emailInput = this.querySelector('input[type="email"]');
+    if (emailInput.value) {
+        alert('Thanks for your registration! We will inform you about our offers and new products!');
+        emailInput.value = ''; // Clear the input
+    }
+});
+
 // Εκκίνηση όταν φορτωθεί η σελίδα
 window.addEventListener('DOMContentLoaded', loadSlideshow);
