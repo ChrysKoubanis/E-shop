@@ -5,7 +5,8 @@
     "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=jpeg&qlt=90&.v=1692919157828",
     "id": 1,
     "likes": 68,
-    "price": 1249.00
+    "price": 1249.0,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
   },
   {
     "name": "Samsung Galaxy S24 Ultra",
@@ -13,7 +14,8 @@
     "photo": "https://hnsgsfp.imgix.net/9/images/detailed/100/Samsung_Galaxy_S24U_01_Gray_34hp-nw.JPG?fit=fill&bg=0FFF&w=1536&h=900&auto=format,compress",
     "id": 2,
     "likes": 73,
-    "price": 1399.00
+    "price": 1399.0,
+    "description": "a high-performance smartphone designed for speed, camera quality, and modern connectivity."
   },
   {
     "name": "MacBook Air M3",
@@ -21,7 +23,8 @@
     "photo": "https://techblog.gr/wp-content/uploads/2024/02/MacBook-Air-15-Inch-Feature-Purple-1024x572.jpg",
     "id": 3,
     "likes": 210,
-    "price": 1299.00
+    "price": 1299.0,
+    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
   },
   {
     "name": "Dell XPS 15",
@@ -29,7 +32,8 @@
     "photo": "https://www.notebookcheck.net/uploads/tx_nbc2/DellXPS15-9510__1__02.jpg",
     "id": 4,
     "likes": 91,
-    "price": 1999.00
+    "price": 1999.0,
+    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
   },
   {
     "name": "iPad Air (2024)",
@@ -37,7 +41,8 @@
     "photo": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-air-storage-select-202405-13inch-purple-wificell_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=TENLTVRoeFdHUUI5ZE1ZZmxpQUlNMm5pQUoxb0NIVEJFSjRVRzZ4dzV5VHVrb3Y0NW4rdlkycGt1OWk1OFQya2tieWZMUUtVeUFXdlRzRzJDL3JyOTVmbTBuZmdjbmVyUEN6U1pnb2VjUDh3Qjhvd1BnZkhnUFFYU1JJMGh5alFCRksrL0FQeDM1NVFET3ZLY0lxV1FYNXFNVzc5YkZmK2I4YzJ4ZndkZUdj&traceId=1",
     "id": 5,
     "likes": 80,
-    "price": 799.99
+    "price": 799.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
   },
   {
     "name": "Samsung Galaxy Tab S9",
@@ -45,7 +50,8 @@
     "photo": "https://bbpcdn.pstatic.gr/P/bpimg130/content26504_SX500/1692969951/samsung-galaxy-tab-s9-11-128gb-mpataria-me-megalh-diarkeia.webp",
     "id": 6,
     "likes": 150,
-    "price": 999.99
+    "price": 999.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
   },
   {
     "name": "Canon EOS R10",
@@ -53,7 +59,8 @@
     "photo": "https://www.eos-magazine.com/system/cameras/mirrorless/images/canon-eos-r10/Canon-EOS_R10_4.jpeg",
     "id": 7,
     "likes": 131,
-    "price": 1099.00
+    "price": 1099.0,
+    "description": "offers professional-grade photo and video capabilities for creators and photographers."
   },
   {
     "name": "Sony Alpha ZV-E10",
@@ -61,7 +68,8 @@
     "photo": "https://www.katerelos.gr/images/2021/07/1_CX88700_front_black.png",
     "id": 8,
     "likes": 39,
-    "price": 799.99
+    "price": 799.99,
+    "description": "offers professional-grade photo and video capabilities for creators and photographers."
   },
   {
     "name": "HP DeskJet 2755e",
@@ -69,7 +77,8 @@
     "photo": "https://5.imimg.com/data5/SELLER/Default/2022/9/GK/KZ/BK/5337988/hp-deskjet-2332-all-in-one-printer-500x500.jpeg",
     "id": 9,
     "likes": 10,
-    "price": 89.00
+    "price": 89.0,
+    "description": "reliable and efficient printer suitable for home or small office use."
   },
   {
     "name": "Canon PIXMA TR4720",
@@ -77,7 +86,8 @@
     "photo": "https://www.iptvsat.gr/wp-content/uploads/2021/08/Canon_PIXMA_TR_4720_Printer_web.jpg",
     "id": 10,
     "likes": 46,
-    "price": 129.99
+    "price": 129.99,
+    "description": "reliable and efficient printer suitable for home or small office use."
   },
   {
     "name": "LG OLED C3 55\"",
@@ -85,7 +95,8 @@
     "photo": "https://5.imimg.com/data5/SELLER/Default/2024/2/386823625/FD/WZ/TF/60302794/lg-42c3-smart-tv-500x500.png",
     "id": 11,
     "likes": 120,
-    "price": 1399.99
+    "price": 1399.99,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
   },
   {
     "name": "Samsung QN90C Neo QLED 65\"",
@@ -93,7 +104,8 @@
     "photo": "https://media.wired.com/photos/65984591992357920ef59271/master/pass/Samsung-QN90C-Review-Featured-Gear.jpg",
     "id": 12,
     "likes": 133,
-    "price": 1799.99
+    "price": 1799.99,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
   },
   {
     "name": "Apple Watch Series 9",
@@ -101,7 +113,8 @@
     "photo": "https://papaxaralabous.gr/20465-large_default/apple-watch-series-9-mr9j3qr-a-gps-45mm-light-pink-sport-loop.jpg",
     "id": 13,
     "likes": 71,
-    "price": 449.99
+    "price": 449.99,
+    "description": "combines fitness tracking, smart notifications, and elegant design in one device."
   },
   {
     "name": "Samsung Galaxy Watch6",
@@ -109,7 +122,8 @@
     "photo": "https://www.samsungshop.tn/26174-large_default/galaxy-watch-6-40mm-prix-tunisie.jpg",
     "id": 14,
     "likes": 53,
-    "price": 349.99
+    "price": 349.99,
+    "description": "combines fitness tracking, smart notifications, and elegant design in one device."
   },
   {
     "name": "Sony WH-1000XM5",
@@ -117,7 +131,8 @@
     "photo": "https://www.sony.co.th/image/6539959b6c50b04c5cec4e23134c1137?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9",
     "id": 15,
     "likes": 109,
-    "price": 419.99
+    "price": 419.99,
+    "description": "provides premium sound quality and noise cancellation for an enhanced listening experience."
   },
   {
     "name": "Apple AirPods Pro (2nd Gen)",
@@ -125,7 +140,8 @@
     "photo": "https://helios-i.mashable.com/imagery/articles/0057lJ6JXRu4oKaQeRcjARh/hero-image.fill.size_1248x702.v1690983872.png",
     "id": 16,
     "likes": 109,
-    "price": 299.99
+    "price": 299.99,
+    "description": "provides premium sound quality and noise cancellation for an enhanced listening experience."
   },
   {
     "name": "Spigen Ultra Hybrid iPhone Case",
@@ -133,7 +149,8 @@
     "photo": "https://microcenter.gr/image/cache/products7/F8809896749190-600x315.jpg",
     "id": 17,
     "likes": 145,
-    "price": 25.00
+    "price": 25.0,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
   },
   {
     "name": "Anker 313 Wireless Charger",
@@ -141,7 +158,8 @@
     "photo": "https://techgearmnl.com/cdn/shop/products/AnkerWirelessCharger-00.png?v=1606642214",
     "id": 18,
     "likes": 154,
-    "price": 19.99
+    "price": 19.99,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
   },
   {
     "name": "Logitech MX Master 3S",
@@ -149,7 +167,8 @@
     "photo": "https://jmau.imgix.net/media/catalog/product/9/1/910-005700-logitech-mx-master-3-wireless-mouse-for-mac.jpg?auto=compress&auto=format&fill-color=FFFFFF&fit=fill&fill=solid&w=496&h=279",
     "id": 19,
     "likes": 21,
-    "price": 109.99
+    "price": 109.99,
+    "description": "cutting-edge tech product designed to enhance your digital lifestyle."
   },
   {
     "name": "Keychron K8 Wireless Keyboard",
@@ -157,7 +176,8 @@
     "photo": "https://m.media-amazon.com/images/I/61OS8Ptfl2L.jpg",
     "id": 20,
     "likes": 165,
-    "price": 89.99
+    "price": 89.99,
+    "description": "cutting-edge tech product designed to enhance your digital lifestyle."
   },
   {
     "name": "Apple Pencil Pro",
@@ -165,7 +185,8 @@
     "photo": "https://istyle.ae/media/oander/news/article/apple-pencil-pro-vs-pencil-2nd-gen-blog-picture.jpg",
     "id": 21,
     "likes": 185,
-    "price": 149.99
+    "price": 149.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
   },
   {
     "name": "Logitech Combo Touch",
@@ -173,7 +194,8 @@
     "photo": "https://i.ytimg.com/vi/M9SBpBG-gTU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGC4gUyh_MA8=&rs=AOn4CLBYyHM3d8WLmDmmZVHN_HMvPWQZlQ",
     "id": 22,
     "likes": 50,
-    "price": 199.99
+    "price": 199.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
   },
   {
     "name": "Peak Design Slide Camera Strap",
@@ -181,7 +203,8 @@
     "photo": "https://pd-ima.imastudent.com/wp-content/uploads/2022/03/slideliteash-scaled-600x400.jpg",
     "id": 23,
     "likes": 165,
-    "price": 70.00
+    "price": 70.0,
+    "description": "offers professional-grade photo and video capabilities for creators and photographers."
   },
   {
     "name": "SanDisk Extreme PRO SD Card 128GB",
@@ -189,7 +212,8 @@
     "photo": "https://gnet.gr/image/cache/catalog/products/nc/image/catalog/product-images-odoo/1p7snd-sdsqxcd-128g-gn6ma-1000x1000.png",
     "id": 24,
     "likes": 51,
-    "price": 45.00
+    "price": 45.0,
+    "description": "offers professional-grade photo and video capabilities for creators and photographers."
   },
   {
     "name": "Samsung One Connect Box",
@@ -197,7 +221,8 @@
     "photo": "https://www.customavi.ca/wp-content/uploads/2024/08/One-Connect-Box-2021.jpg",
     "id": 25,
     "likes": 145,
-    "price": 300.00
+    "price": 300.0,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
   },
   {
     "name": "VESA TV Wall Mount",
@@ -205,7 +230,8 @@
     "photo": "https://webobjects2.cdw.com/is/image/CDW/4504736?wid=784&hei=477&resMode=bilin&fit=fit,1",
     "id": 26,
     "likes": 37,
-    "price": 35.00
+    "price": 35.0,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
   },
   {
     "name": "Belkin BoostCharge USB-C Cable",
@@ -213,7 +239,8 @@
     "photo": "https://hnsfpau.imgix.net/5/images/detailed/141/4940751_1.jpg?fit=fill&bg=0FFF&w=1500&h=844&auto=format,compress",
     "id": 27,
     "likes": 167,
-    "price": 20.00
+    "price": 20.0,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
   },
   {
     "name": "Nomad Rugged Band for Apple Watch",
@@ -221,7 +248,8 @@
     "photo": "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/wm/2024/02/nomad-rugged-case-hero.jpg",
     "id": 28,
     "likes": 190,
-    "price": 60.00
+    "price": 60.0,
+    "description": "Nomad Rugged Band for Apple Watch combines fitness tracking, smart notifications, and elegant design in one device."
   },
   {
     "name": "Laptop HP 15-FD0027NV 15,6'' FHD Micro-Edge",
@@ -229,7 +257,8 @@
     "photo": "https://d.scdn.gr/images/sku_images/076109/76109148/20230517113957_b589a9a0.jpeg",
     "id": 29,
     "likes": 128,
-    "price": 649.00
+    "price": 649.0,
+    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
   },
   {
     "name": "Phone Case Apple iPhone 16 Pro Max - Tune UltraMag - Clear",
@@ -237,7 +266,8 @@
     "photo": "https://m.media-amazon.com/images/I/61UCicxlOYL.jpg",
     "id": 30,
     "likes": 58,
-    "price": 25.99
+    "price": 25.99,
+    "description": "Phone Case Apple iPhone 16 Pro Max."
   },
   {
     "name": "Phone Case Samsung Galaxy S25 Ultra - Samsung Silicone Case - Black",
@@ -245,7 +275,8 @@
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhIQHvslzjAjG5y_AgMpSSXifjrxOIVkktw&s",
     "id": 31,
     "likes": 22,
-    "price": 40.99
+    "price": 40.99,
+    "description": "Phone Case Samsung Galaxy S25 Ultra - Samsung Silicone Case - Black."
   },
   {
     "name": "Cable Apple Lightning σε USB-C 1m - White",
@@ -253,7 +284,8 @@
     "photo": "https://external.webstorage.gr/mmimages/image/32/50/40/16/1913320-APPLE-hero-560x560.jpg",
     "id": 32,
     "likes": 38,
-    "price": 24.99
+    "price": 24.99,
+    "description": "Cable Apple Lightning σε USB-C 1m - White."
   },
   {
     "name": "Tempered Glass Apple iPhone 15/iPhone 15 Pro/iPhone 16 - Tune Elite Premium Tempered Glass",
@@ -261,7 +293,8 @@
     "photo": "https://external.webstorage.gr/mmimages/image/23/46/31/28/1850810-TUNE-APPLECASE-hero-560x560.jpg",
     "id": 33,
     "likes": 75,
-    "price": 10.00
+    "price": 10.0,
+    "description": "Tempered Glass Apple iPhone 15/iPhone 15 Pro/iPhone 16 - Tune Elite Premium Tempered Glass."
   },
   {
     "name": "Powerbank Crystal Audio PBK6K 30.000mAh - Black",
@@ -269,7 +302,8 @@
     "photo": "https://b2b.damkalidis.gr/image/cache/catalog/photosb2b/CRYSTAL_AUDIO/381613/381613_0-900x900.jpg",
     "id": 34,
     "likes": 100,
-    "price": 49.99
+    "price": 49.99,
+    "description": "Powerbank Crystal Audio PBK6K 30.000mAh - Black."
   },
   {
     "name": "Powerbank Tune Tune On the Go 10.000mAh- Black",
@@ -277,7 +311,8 @@
     "photo": "https://c.scdn.gr/images/sku_main_images/030636/30636713/xlarge_20210826161819_veger_power_bank_vp3008pd_30000mah_20w_me_grigori_fortisi_kai_usb_c_mayro.jpeg",
     "id": 35,
     "likes": 15,
-    "price": 23.99
+    "price": 23.99,
+    "description": "Powerbank Tune Tune On the Go 10.000mAh- Black."
   },
   {
     "name": "Charger Tune USB-C σε Lightning 20W 1.5m - White",
@@ -285,6 +320,115 @@
     "photo": "https://external.webstorage.gr/mmimages/image/76/31/91/32/1969688-TUNE-0756740830802-hero-560x560.jpg",
     "id": 36,
     "likes": 52,
-    "price": 30.99
+    "price": 30.99,
+    "description": "Charger Tune USB-C σε Lightning 20W 1.5m - White."
+  },
+  {
+    "name": "Google Pixel 9a 5G",
+    "category": "Smartphones",
+    "photo": "https://flexin.gr/image/cache/catalog/api/images/840353922273-1200x925.png.webp",
+    "id": 37,
+    "likes": 86,
+    "price": 521.0,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+  },
+  {
+    "name": "Xiaomi Redmi Note 14 Pro 5G",
+    "category": "Smartphones",
+    "photo": "https://www.mistore-greece.gr/getmetafile/5c2b264e-0503-4cff-a922-9b60808d532d/note14propurple-5g.aspx",
+    "id": 38,
+    "likes": 32,
+    "price": 245.99,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+  },
+  {
+    "name": "Xiaomi Poco X7 Pro 5G",
+    "category": "Smartphones",
+    "photo": "https://www.mistore-greece.gr/getmetafile/8b3bf853-3f22-4adc-8fe4-37951618f2ab/x7problack.aspx",
+    "id": 39,
+    "likes": 110,
+    "price": 338.97,
+    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+  },
+  {
+    "name": "HP 250 G9 15.6",
+    "category": "PCs & Laptops",
+    "photo": "https://mrcheap.gr/image/cache/catalog/00183645_02-550x500w.jpg",
+    "id": 40,
+    "likes": 43,
+    "price": 320.0,
+    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+  },
+  {
+    "name": "MSI Cyborg 15 A13VF 15.6",
+    "category": "PCs & Laptops",
+    "photo": "https://b.scdn.gr/images/sku_main_images/051843/51843430/xlarge_20240329095802_msi_cyborg_14_a13vf_15_6_144hz_i7_13620h_16gb_512gb_ssd_geforce_rtx_4060_w11_home.jpeg",
+    "id": 41,
+    "likes": 12,
+    "price": 1250.0,
+    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+  },
+  {
+    "name": "Lenovo V15 G4 AMN 15.6",
+    "category": "PCs & Laptops",
+    "photo": "https://www.e-shop.gr/images/PER/BIG/PER.919380.jpg",
+    "id": 42,
+    "likes": 143,
+    "price": 420.0,
+    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+  },
+  {
+    "name": "Xiaomi Redmi Pad SE",
+    "category": "Tablets",
+    "photo": "https://eurogoods.gr/image/cache/catalog/%20%CF%83%CF%80%CE%B9%CF%84%CE%B9%CE%BF%CF%85/14621-1000x1000.png",
+    "id": 43,
+    "likes": 68,
+    "price": 160.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+  },
+  {
+    "name": "Lenovo Tab 10.1",
+    "category": "Tablets",
+    "photo": "https://www.e-lenovo.gr/image/cache/catalog/ProductPhotos/Lenovo%20TAB%2010.1in%20LunaGrey/Lenovo_Tab_CT1_03-800x800.png",
+    "id": 44,
+    "likes": 46,
+    "price": 129.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+  },
+  {
+    "name": "BlackView Tab 70",
+    "category": "Tablets",
+    "photo": "https://businesscom.gr/wp-content/uploads/2024/07/1-300x300.jpg",
+    "id": 45,
+    "likes": 12,
+    "price": 85.99,
+    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+  },
+  {
+    "name": "LG Smart 43' 4K LED 43UR781C0LK.AEU (2023)",
+    "category": "TV",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3hSC0uoU0kwBbVEhQRB1ACQa9i11VJKWfQ&s",
+    "id": 46,
+    "likes": 170,
+    "price": 278.99,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+  },
+  {
+    "name": "Samsung Smart 55' 4K QLED QE55Q60DAUXXH (2024)",
+    "category": "TV",
+    "photo": "https://papaxaralabous.gr/26467-large_default/%CF%84%CE%B7%CE%BB%CE%B5%CE%BF%CF%81%CE%B1%CF%83%CE%B7-samsung-55-qe55q60dauxxh-qled-4k.jpg",
+    "id": 47,
+    "likes": 79,
+    "price": 500.0,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+  },
+  {
+    "name": "Tesla Smart 40' Full HD LED 40E635BFS (2023)",
+    "category": "TV",
+    "photo": "https://bbpcdn.pstatic.gr/bpimg17/8BZQJ/1T6slt_SX805Y805/1730370243/tesla-40e635bfs-smart-thleorash-40-full-hd-edge-led.jpg",
+    "id": 48,
+    "likes": 57,
+    "price": 190.99,
+    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
   }
 ]
