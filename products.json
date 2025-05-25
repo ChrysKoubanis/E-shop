@@ -81,30 +81,30 @@
     "description": "Affordable all-in-one printer with wireless connectivity for home and small office use."
   },
   {
-    "name": "Canon PIXMA TR4720",
+    "name": "Canon PIXMA TR4720 Wireless Printer",
     "category": "Printers & Ink",
     "photo": "https://www.iptvsat.gr/wp-content/uploads/2021/08/Canon_PIXMA_TR_4720_Printer_web.jpg",
     "id": 10,
     "likes": 46,
-    "price": 129.99,
+    "price": 59.99,
     "description": "Compact all-in-one printer with automatic duplex printing and mobile printing support."
   },
   {
-    "name": "LG OLED C3 55\"",
+    "name": "LG OLED C3 TV 55 Inch",
     "category": "TV",
     "photo": "https://5.imimg.com/data5/SELLER/Default/2024/2/386823625/FD/WZ/TF/60302794/lg-42c3-smart-tv-500x500.png",
     "id": 11,
     "likes": 120,
-    "price": 1399.99,
+    "price": 887.99,
     "description": "Stunning OLED TV with perfect blacks, vibrant colors, and smart webOS platform."
   },
   {
-    "name": "Samsung QN90C Neo QLED 65\"",
+    "name": "Samsung QN90C Neo QLED TV 65 Inch",
     "category": "TV",
     "photo": "https://media.wired.com/photos/65984591992357920ef59271/master/pass/Samsung-QN90C-Review-Featured-Gear.jpg",
     "id": 12,
     "likes": 133,
-    "price": 1799.99,
+    "price": 1199.99,
     "description": "Bright and colorful Neo QLED TV with excellent contrast and smart features."
   },
   {
@@ -113,8 +113,8 @@
     "photo": "https://papaxaralabous.gr/20465-large_default/apple-watch-series-9-mr9j3qr-a-gps-45mm-light-pink-sport-loop.jpg",
     "id": 13,
     "likes": 71,
-    "price": 449.99,
-    "description": "Advanced smartwatch with health tracking, fast performance, and always-on display."
+    "price": 343.99,
+    "description": "Advanced smartwatch with health tracking, fast performance, and always-on display. (GPS + Cellular, 41mm - Polar Star Aluminium Case with Polar Star Sport Band)"
   },
   {
     "name": "Samsung Galaxy Watch6",
@@ -122,20 +122,20 @@
     "photo": "https://www.samsungshop.tn/26174-large_default/galaxy-watch-6-40mm-prix-tunisie.jpg",
     "id": 14,
     "likes": 53,
-    "price": 349.99,
-    "description": "Sleek smartwatch with comprehensive health tracking and long battery life."
+    "price": 229.99,
+    "description": "Sleek smartwatch with comprehensive health tracking and long battery life.It includes sleep monitoring, Heart rate monitor, Waterproof, GPS via smartphone, Long lasting battery, Cellular connection, Oximeter (SpO2)"
   },
   {
-    "name": "Sony WH-1000XM5",
+    "name": "Sony WH-1000XM5 Over-Ear Wireless Headphones",
     "category": "Audio",
     "photo": "https://www.sony.co.th/image/6539959b6c50b04c5cec4e23134c1137?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9",
     "id": 15,
     "likes": 109,
-    "price": 419.99,
-    "description": "Industry-leading noise-canceling headphones with exceptional sound quality."
+    "price": 467.99,
+    "description": "Industry-leading noise-canceling headphones with exceptional sound quality, foldable Design, durable Case, 30 Hour Battery, iOS & Android, Midnight Blue."
   },
   {
-    "name": "Apple AirPods Pro (2nd Gen)",
+    "name": "Apple AirPods Pro (2nd Gen) Wireless Headphones",
     "category": "Audio",
     "photo": "https://helios-i.mashable.com/imagery/articles/0057lJ6JXRu4oKaQeRcjARh/hero-image.fill.size_1248x702.v1690983872.png",
     "id": 16,
