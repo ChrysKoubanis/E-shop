@@ -67,7 +67,7 @@ function likeProduct(productId) {
         .then(response => response.json())
         .then(data => {
             if (data.status === 'success') {
-                const currentSearch = document.getElementById('search-input').value;
+                const currentSearch = document.getElementById('search-input').value.trim();
                 fetchProducts(currentSearch, currentCategory);
             }
         })
@@ -82,14 +82,27 @@ document.addEventListener('DOMContentLoaded', function () {
     fetchProducts('', initialCategory);
 
     document.getElementById('search-button').addEventListener('click', function () {
-        const searchTerm = document.getElementById('search-input').value;
-        fetchProducts(searchTerm, currentCategory);
+        const searchTerm = document.getElementById('search-input').value.trim();
+
+        if (searchTerm === '') {
+            // Καθαρίζουμε και το φίλτρο κατηγορίας
+            currentCategory = '';
+            fetchProducts('', '');
+        } else {
+            fetchProducts(searchTerm, currentCategory);
+        }
     });
 
     document.getElementById('search-input').addEventListener('keypress', function (e) {
         if (e.key === 'Enter') {
-            const searchTerm = document.getElementById('search-input').value;
-            fetchProducts(searchTerm, currentCategory);
+            const searchTerm = document.getElementById('search-input').value.trim();
+
+            if (searchTerm === '') {
+                currentCategory = '';
+                fetchProducts('', '');
+            } else {
+                fetchProducts(searchTerm, currentCategory);
+            }
         }
     });
 
