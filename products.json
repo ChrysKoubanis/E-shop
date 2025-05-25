@@ -430,5 +430,104 @@
     "likes": 57,
     "price": 190.99,
     "description": "Budget-friendly smart TV with decent picture quality and built-in apps."
+  },
+  {
+    "name": "Bose TV Speaker",
+    "category": "TV Accessories",
+    "photo": "https://www.polihome.gr/ontheflyresizer.php?zc=2&w=1066&h=800&src=pub/media/catalog/product/0/1/0134511_bose-tv-speaker.jpg",
+    "id": 49,
+    "likes": 12,
+    "price": 189.99,
+    "description": "Α compact soundbar that is easy to use and ensures clear voice reproduction and better TV sound."
+  },
+  {
+    "name": "Panasonic DVD-S700 DVD Player",
+    "category": "TV Accessories",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2-RZi8qDXPJgXlqe_PtG_56Yewmec8fadV77WjKh5u0U-MtOUJwAq2-BAF2o2dGIJro&usqp=CAU",
+    "id": 50,
+    "likes": 63,
+    "price": 51.99,
+    "description": "This DVD Player is an innovative, simple and versatile DVD player that offers fantastic picture and sound quality via the HDMI port."
+  },
+  {
+    "name": "JBL Charge 5 Bluetooth Speaker",
+    "category": "Audio",
+    "photo": "https://www.heathcotes.co.nz/spree/products/45690/large/JBL_CHARGE5_FRONT_RED_0080_x2.png?1629952774",
+    "id": 51,
+    "likes": 63,
+    "price": 168.00,
+    "description": "The JBL Charge 5 speaker delivers bold JBL Original Pro Sound, with its optimized long excursion driver, separate tweeter and dual pumping JBL bass radiators. "
+  },
+  {
+    "name": "RK ROYAL KLUDGE RGB 60% Mechanical Gaming Keyboard",
+    "category": "Computer Accessories",
+    "photo": "https://cozydev.com.au/cdn/shop/files/63b68e545496f795552168_w1320h1080.jpg?v=1746502921",
+    "id": 52,
+    "likes": 112,
+    "price": 59.93,
+    "description": "A compact mechanical keyboard with 61 keys that provides you with a neat desktop."
+  },
+  {
+    "name": "Logitech M185 wireless mouse",
+    "category": "Computer Accessories",
+    "photo": "https://resource.logitech.com/w_800,c_lpad,ar_16:9,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/m185/gallery/m185-gallery-1-new.png?v=1",
+    "id": 53,
+    "likes": 23,
+    "price": 11.99,
+    "description": "The freedom of movement of a wireless connection with the reliability of a mouse with a cable - in the office, when gaming, with or without a mouse pad, on Windows and Mac computers."
+  },
+  {
+    "name": "MoKo Case for iPad Yellow",
+    "category": "Tablet Accessories",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6FyMpRQvXayJyRXhUtOsdaAAoYU64d3jy_ql6-v3vVDo5sZHRoSzVpqekTGb2rS5XbPs&usqp=CAU",
+    "id": 54,
+    "likes": 5,
+    "price": 18.75,
+    "description": "Slim Stand Protective Case with Hard PC Transparent Back and strong magnetic connection to create a stable viewing/input stand."
+  },
+  {
+    "name": "INSTAX Mini 12 Instant Camera Mint Green",
+    "category": "Camera",
+    "photo": "https://res.plaisio.gr/image/upload/c_limit,f_auto,w_2048,q_75/Shared/Product/Multimedia-Descriptions/4256379/4256379-At-Glance.jpg",
+    "id": 55,
+    "likes": 92,
+    "price": 81.75,
+    "description": "The new Fujifilm Instax Mini 12 is here and will captivate you with its easy use and features.The shutter speed, flash brightness, and other settings adjust automatically to the ambient light, so you can take photos with ease."
+  },
+  {
+    "name": "Camera Tripod, COMAN Zero Y Tripod",
+    "category": "Camera Accessories",
+    "photo": "https://mojogear.eu/cdn/shop/files/6f1b-3e8f-492b-b0bf-b7d52d773b13.jpg?v=1733739886",
+    "id": 56,
+    "likes": 33,
+    "price": 219.75,
+    "description": "Tripod with 360° panoramic ball head, lightweight and stable: camera tripod is 1.1 kg and minimum storage size is 42.3 cm, tripod is easy to store and easy to carry"
+  },
+  {
+    "name": "Flash Diffuser Silver",
+    "category": "Camera Accessories",
+    "photo": "https://i.ebayimg.com/images/g/qcwAAOSwn4hfNOZu/s-l400.jpg",
+    "id": 57,
+    "likes": 13,
+    "price": 10.99,
+    "description": "Two-sided silver white reflector: it helps to reduce hard background shadows and eliminates the annoying red eye effect."
+  },
+  {
+    "name": "Apple AirTag Find",
+    "category": "Wearable Accessories",
+    "photo": "https://www.istorm.gr/cdn/shop/files/airtag_pdp_image_position-3__wwen_1.jpg?v=1720438429&width=823",
+    "id": 58,
+    "likes": 42,
+    "price": 31.99,
+    "description": "Keep an eye on your things: Keys, Wallets, Luggage, Backpacks and More with this Apple Airtag that uses ultra-wideband technology to guide you directly to your AirTag nearby "
+  },
+  {
+    "name": "Original HP ink cartridges",
+    "category": "Printers & Ink",
+    "photo": "https://entosoffice.gr/11432-large_default/hp-305-black-original-ink-cartridge.jpg",
+    "id": 59,
+    "likes": 5,
+    "price": 25.00,
+    "description": "first-class print quality, high reliability and easy to use, Compatible with: HP DeskJet 2300, 2700, 2800, 4100, 4200 series"
   }
 ]
