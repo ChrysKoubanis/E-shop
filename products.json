@@ -1,8 +1,8 @@
 [
   {
-    "name": "iPhone 15 Pro",
+    "name": "Apple iPhone 15 Pro - Black",
     "category": "Smartphones",
-    "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=jpeg&qlt=90&.v=1692919157828",
+    "photo": "https://assets.gy.digital/WYyTaJ5EkNRejAIdD8FYWEQWRgQ=/fit-in/800x0/filters:fill(white)/s3.gy.digital%2Fi-mob%2Fuploads%2Fasset%2Fdata%2F4086%2F3000APPL1450.jpg",
     "id": 1,
     "likes": 68,
     "price": 1249.0,
@@ -18,16 +18,16 @@
     "description": "a high-performance smartphone designed for speed, camera quality, and modern connectivity."
   },
   {
-    "name": "MacBook Air M3",
+    "name": "Apple MacBook Air M3 - Sky Blue",
     "category": "PCs & Laptops",
-    "photo": "https://techblog.gr/wp-content/uploads/2024/02/MacBook-Air-15-Inch-Feature-Purple-1024x572.jpg",
+    "photo": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-air-og-202503?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1739216814915",
     "id": 3,
     "likes": 210,
     "price": 1299.0,
     "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
   },
   {
-    "name": "Dell XPS 15",
+    "name": "Dell XPS 15 Laptop",
     "category": "PCs & Laptops",
     "photo": "https://www.notebookcheck.net/uploads/tx_nbc2/DellXPS15-9510__1__02.jpg",
     "id": 4,
