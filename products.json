@@ -6,7 +6,7 @@
     "id": 1,
     "likes": 68,
     "price": 1249.0,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Premium smartphone with a titanium design, advanced A17 Pro chip, and a pro-level camera system for stunning photos and videos."
   },
   {
     "name": "Samsung Galaxy S24 Ultra",
@@ -15,7 +15,7 @@
     "id": 2,
     "likes": 73,
     "price": 1399.0,
-    "description": "a high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Flagship phone with a powerful Snapdragon 8 Gen 3 processor, 200MP camera, and a long-lasting battery."
   },
   {
     "name": "MacBook Air M3",
@@ -24,7 +24,7 @@
     "id": 3,
     "likes": 210,
     "price": 1299.0,
-    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+    "description": "Ultra-thin and lightweight laptop with the powerful M3 chip, perfect for productivity and creative work."
   },
   {
     "name": "Dell XPS 15",
@@ -33,7 +33,7 @@
     "id": 4,
     "likes": 91,
     "price": 1999.0,
-    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+    "description": "High-performance laptop with a stunning 4K OLED display and powerful Intel Core i9 processor."
   },
   {
     "name": "iPad Air (2024)",
@@ -42,7 +42,7 @@
     "id": 5,
     "likes": 80,
     "price": 799.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Sleek and powerful tablet with the M2 chip, ideal for multitasking and creative apps."
   },
   {
     "name": "Samsung Galaxy Tab S9",
@@ -51,7 +51,7 @@
     "id": 6,
     "likes": 150,
     "price": 999.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Premium Android tablet with a vibrant AMOLED display and S Pen support for note-taking and drawing."
   },
   {
     "name": "Canon EOS R10",
@@ -60,7 +60,7 @@
     "id": 7,
     "likes": 131,
     "price": 1099.0,
-    "description": "offers professional-grade photo and video capabilities for creators and photographers."
+    "description": "Compact mirrorless camera with fast autofocus and 4K video, perfect for enthusiasts."
   },
   {
     "name": "Sony Alpha ZV-E10",
@@ -69,7 +69,7 @@
     "id": 8,
     "likes": 39,
     "price": 799.99,
-    "description": "offers professional-grade photo and video capabilities for creators and photographers."
+    "description": "Lightweight vlogging camera with excellent autofocus and flip-out touchscreen."
   },
   {
     "name": "HP DeskJet 2755e",
@@ -78,7 +78,7 @@
     "id": 9,
     "likes": 10,
     "price": 89.0,
-    "description": "reliable and efficient printer suitable for home or small office use."
+    "description": "Affordable all-in-one printer with wireless connectivity for home and small office use."
   },
   {
     "name": "Canon PIXMA TR4720",
@@ -87,7 +87,7 @@
     "id": 10,
     "likes": 46,
     "price": 129.99,
-    "description": "reliable and efficient printer suitable for home or small office use."
+    "description": "Compact all-in-one printer with automatic duplex printing and mobile printing support."
   },
   {
     "name": "LG OLED C3 55\"",
@@ -96,7 +96,7 @@
     "id": 11,
     "likes": 120,
     "price": 1399.99,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "Stunning OLED TV with perfect blacks, vibrant colors, and smart webOS platform."
   },
   {
     "name": "Samsung QN90C Neo QLED 65\"",
@@ -105,7 +105,7 @@
     "id": 12,
     "likes": 133,
     "price": 1799.99,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "Bright and colorful Neo QLED TV with excellent contrast and smart features."
   },
   {
     "name": "Apple Watch Series 9",
@@ -114,7 +114,7 @@
     "id": 13,
     "likes": 71,
     "price": 449.99,
-    "description": "combines fitness tracking, smart notifications, and elegant design in one device."
+    "description": "Advanced smartwatch with health tracking, fast performance, and always-on display."
   },
   {
     "name": "Samsung Galaxy Watch6",
@@ -123,7 +123,7 @@
     "id": 14,
     "likes": 53,
     "price": 349.99,
-    "description": "combines fitness tracking, smart notifications, and elegant design in one device."
+    "description": "Sleek smartwatch with comprehensive health tracking and long battery life."
   },
   {
     "name": "Sony WH-1000XM5",
@@ -132,7 +132,7 @@
     "id": 15,
     "likes": 109,
     "price": 419.99,
-    "description": "provides premium sound quality and noise cancellation for an enhanced listening experience."
+    "description": "Industry-leading noise-canceling headphones with exceptional sound quality."
   },
   {
     "name": "Apple AirPods Pro (2nd Gen)",
@@ -141,7 +141,7 @@
     "id": 16,
     "likes": 109,
     "price": 299.99,
-    "description": "provides premium sound quality and noise cancellation for an enhanced listening experience."
+    "description": "Premium wireless earbuds with active noise cancellation and spatial audio."
   },
   {
     "name": "Spigen Ultra Hybrid iPhone Case",
@@ -150,7 +150,7 @@
     "id": 17,
     "likes": 145,
     "price": 25.0,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Durable and clear case with military-grade protection and precise cutouts."
   },
   {
     "name": "Anker 313 Wireless Charger",
@@ -159,7 +159,7 @@
     "id": 18,
     "likes": 154,
     "price": 19.99,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Fast and reliable wireless charger with non-slip surface and LED indicator."
   },
   {
     "name": "Logitech MX Master 3S",
@@ -168,7 +168,7 @@
     "id": 19,
     "likes": 21,
     "price": 109.99,
-    "description": "cutting-edge tech product designed to enhance your digital lifestyle."
+    "description": "Ergonomic wireless mouse with precision scrolling and customizable buttons."
   },
   {
     "name": "Keychron K8 Wireless Keyboard",
@@ -177,7 +177,7 @@
     "id": 20,
     "likes": 165,
     "price": 89.99,
-    "description": "cutting-edge tech product designed to enhance your digital lifestyle."
+    "description": "Mechanical wireless keyboard with hot-swappable switches and RGB backlighting."
   },
   {
     "name": "Apple Pencil Pro",
@@ -186,7 +186,7 @@
     "id": 21,
     "likes": 185,
     "price": 149.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Advanced stylus with pressure sensitivity and tilt support for creative work."
   },
   {
     "name": "Logitech Combo Touch",
@@ -195,7 +195,7 @@
     "id": 22,
     "likes": 50,
     "price": 199.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Versatile keyboard case with trackpad for iPad, enhancing productivity."
   },
   {
     "name": "Peak Design Slide Camera Strap",
@@ -204,7 +204,7 @@
     "id": 23,
     "likes": 165,
     "price": 70.0,
-    "description": "offers professional-grade photo and video capabilities for creators and photographers."
+    "description": "Comfortable and adjustable camera strap with quick-release anchors."
   },
   {
     "name": "SanDisk Extreme PRO SD Card 128GB",
@@ -213,7 +213,7 @@
     "id": 24,
     "likes": 51,
     "price": 45.0,
-    "description": "offers professional-grade photo and video capabilities for creators and photographers."
+    "description": "High-speed SD card with excellent performance for 4K video and burst shooting."
   },
   {
     "name": "Samsung One Connect Box",
@@ -222,7 +222,7 @@
     "id": 25,
     "likes": 145,
     "price": 300.0,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "Centralized connection hub for Samsung TVs, reducing cable clutter."
   },
   {
     "name": "VESA TV Wall Mount",
@@ -231,7 +231,7 @@
     "id": 26,
     "likes": 37,
     "price": 35.0,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "Sturdy and adjustable wall mount compatible with most flat-screen TVs."
   },
   {
     "name": "Belkin BoostCharge USB-C Cable",
@@ -240,7 +240,7 @@
     "id": 27,
     "likes": 167,
     "price": 20.0,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Durable USB-C cable with fast charging and data transfer capabilities."
   },
   {
     "name": "Nomad Rugged Band for Apple Watch",
@@ -249,7 +249,7 @@
     "id": 28,
     "likes": 190,
     "price": 60.0,
-    "description": "Nomad Rugged Band for Apple Watch combines fitness tracking, smart notifications, and elegant design in one device."
+    "description": "Durable and stylish band with reinforced protection for outdoor activities."
   },
   {
     "name": "Laptop HP 15-FD0027NV 15,6'' FHD Micro-Edge",
@@ -258,7 +258,7 @@
     "id": 29,
     "likes": 128,
     "price": 649.0,
-    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+    "description": "Affordable laptop with a Full HD display and reliable performance for everyday tasks."
   },
   {
     "name": "Phone Case Apple iPhone 16 Pro Max - Tune UltraMag - Clear",
@@ -267,7 +267,7 @@
     "id": 30,
     "likes": 58,
     "price": 25.99,
-    "description": "Phone Case Apple iPhone 16 Pro Max."
+    "description": "Slim and clear case with MagSafe compatibility and scratch-resistant coating."
   },
   {
     "name": "Phone Case Samsung Galaxy S25 Ultra - Samsung Silicone Case - Black",
@@ -276,7 +276,7 @@
     "id": 31,
     "likes": 22,
     "price": 40.99,
-    "description": "Phone Case Samsung Galaxy S25 Ultra - Samsung Silicone Case - Black."
+    "description": "Premium silicone case with a soft-touch finish and precise fit."
   },
   {
     "name": "Cable Apple Lightning σε USB-C 1m - White",
@@ -285,7 +285,7 @@
     "id": 32,
     "likes": 38,
     "price": 24.99,
-    "description": "Cable Apple Lightning σε USB-C 1m - White."
+    "description": "Official Apple cable for fast charging and data transfer."
   },
   {
     "name": "Tempered Glass Apple iPhone 15/iPhone 15 Pro/iPhone 16 - Tune Elite Premium Tempered Glass",
@@ -294,7 +294,7 @@
     "id": 33,
     "likes": 75,
     "price": 10.0,
-    "description": "Tempered Glass Apple iPhone 15/iPhone 15 Pro/iPhone 16 - Tune Elite Premium Tempered Glass."
+    "description": "High-quality tempered glass screen protector with easy installation."
   },
   {
     "name": "Powerbank Crystal Audio PBK6K 30.000mAh - Black",
@@ -303,7 +303,7 @@
     "id": 34,
     "likes": 100,
     "price": 49.99,
-    "description": "Powerbank Crystal Audio PBK6K 30.000mAh - Black."
+    "description": "High-capacity power bank with multiple ports for charging multiple devices."
   },
   {
     "name": "Powerbank Tune Tune On the Go 10.000mAh- Black",
@@ -312,7 +312,7 @@
     "id": 35,
     "likes": 15,
     "price": 23.99,
-    "description": "Powerbank Tune Tune On the Go 10.000mAh- Black."
+    "description": "Compact and portable power bank with fast charging support."
   },
   {
     "name": "Charger Tune USB-C σε Lightning 20W 1.5m - White",
@@ -321,7 +321,7 @@
     "id": 36,
     "likes": 52,
     "price": 30.99,
-    "description": "Charger Tune USB-C σε Lightning 20W 1.5m - White."
+    "description": "Fast charger with a durable cable for quick and efficient charging."
   },
   {
     "name": "Google Pixel 9a 5G",
@@ -330,7 +330,7 @@
     "id": 37,
     "likes": 86,
     "price": 521.0,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Affordable Pixel phone with a great camera and clean Android experience."
   },
   {
     "name": "Xiaomi Redmi Note 14 Pro 5G",
@@ -339,7 +339,7 @@
     "id": 38,
     "likes": 32,
     "price": 245.99,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Budget-friendly phone with a high-refresh-rate display and long battery life."
   },
   {
     "name": "Xiaomi Poco X7 Pro 5G",
@@ -348,7 +348,7 @@
     "id": 39,
     "likes": 110,
     "price": 338.97,
-    "description": "high-performance smartphone designed for speed, camera quality, and modern connectivity."
+    "description": "Performance-focused phone with a powerful processor and fast charging."
   },
   {
     "name": "HP 250 G9 15.6",
@@ -357,7 +357,7 @@
     "id": 40,
     "likes": 43,
     "price": 320.0,
-    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+    "description": "Reliable budget laptop with decent performance for everyday use."
   },
   {
     "name": "MSI Cyborg 15 A13VF 15.6",
@@ -366,7 +366,7 @@
     "id": 41,
     "likes": 12,
     "price": 1250.0,
-    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+    "description": "Gaming laptop with a high-refresh-rate display and powerful GPU."
   },
   {
     "name": "Lenovo V15 G4 AMN 15.6",
@@ -375,7 +375,7 @@
     "id": 42,
     "likes": 143,
     "price": 420.0,
-    "description": "powerful laptop ideal for productivity, entertainment, and everyday computing."
+    "description": "Business laptop with a durable build and solid performance."
   },
   {
     "name": "Xiaomi Redmi Pad SE",
@@ -384,7 +384,7 @@
     "id": 43,
     "likes": 68,
     "price": 160.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Affordable tablet with a large display and decent performance."
   },
   {
     "name": "Lenovo Tab 10.1",
@@ -393,7 +393,7 @@
     "id": 44,
     "likes": 46,
     "price": 129.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Compact and lightweight tablet for basic tasks and media consumption."
   },
   {
     "name": "BlackView Tab 70",
@@ -402,7 +402,7 @@
     "id": 45,
     "likes": 12,
     "price": 85.99,
-    "description": "lightweight and versatile tablet, perfect for browsing, streaming, and mobile work."
+    "description": "Entry-level tablet with basic features for casual use."
   },
   {
     "name": "LG Smart 43' 4K LED 43UR781C0LK.AEU (2023)",
@@ -411,7 +411,7 @@
     "id": 46,
     "likes": 170,
     "price": 278.99,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "Compact 4K smart TV with webOS for easy streaming."
   },
   {
     "name": "Samsung Smart 55' 4K QLED QE55Q60DAUXXH (2024)",
@@ -420,7 +420,7 @@
     "id": 47,
     "likes": 79,
     "price": 500.0,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "QLED TV with vibrant colors and smart features for an immersive viewing experience."
   },
   {
     "name": "Tesla Smart 40' Full HD LED 40E635BFS (2023)",
@@ -429,6 +429,6 @@
     "id": 48,
     "likes": 57,
     "price": 190.99,
-    "description": "delivers immersive visuals and smart features for the ultimate home entertainment experience."
+    "description": "Budget-friendly smart TV with decent picture quality and built-in apps."
   }
 ]
