@@ -114,7 +114,7 @@
     "id": 13,
     "likes": 71,
     "price": 343.99,
-    "description": "Advanced smartwatch with health tracking, fast performance, and always-on display. (GPS + Cellular, 41mm - Polar Star Aluminium Case with Polar Star Sport Band)"
+    "description": "Advanced smartwatch with health tracking, fast performance, and always-on display. (GPS - Polar Star Aluminium Case with Polar Star Sport Band)"
   },
   {
     "name": "Samsung Galaxy Watch6",
@@ -123,19 +123,19 @@
     "id": 14,
     "likes": 53,
     "price": 229.99,
-    "description": "Sleek smartwatch with comprehensive health tracking and long battery life.It includes sleep monitoring, Heart rate monitor, Waterproof, GPS via smartphone, Long lasting battery, Cellular connection, Oximeter (SpO2)"
+    "description": "Sleek smartwatch with comprehensive health tracking and long battery life (sleep monitoring, Heart rate monitor, Waterproof)"
   },
   {
-    "name": "Sony WH-1000XM5 Over-Ear Wireless Headphones",
+    "name": "Sony WH-1000XM5 Headphones",
     "category": "Audio",
     "photo": "https://www.sony.co.th/image/6539959b6c50b04c5cec4e23134c1137?fmt=pjpeg&wid=1014&hei=396&bgcolor=F1F5F9&bgc=F1F5F9",
     "id": 15,
     "likes": 109,
     "price": 467.99,
-    "description": "Industry-leading noise-canceling headphones with exceptional sound quality, foldable Design, durable Case, 30 Hour Battery, iOS & Android, Midnight Blue."
+    "description": "Industry-leading noise-canceling headphones with exceptional sound quality, foldable Design, 30 Hour Battery, Midnight Blue."
   },
   {
-    "name": "Apple AirPods Pro (2nd Gen) Wireless Headphones",
+    "name": "Apple AirPods Pro (2nd Gen) Headphones",
     "category": "Audio",
     "photo": "https://helios-i.mashable.com/imagery/articles/0057lJ6JXRu4oKaQeRcjARh/hero-image.fill.size_1248x702.v1690983872.png",
     "id": 16,
@@ -162,7 +162,7 @@
     "description": "Fast and reliable wireless charger with non-slip surface and LED indicator."
   },
   {
-    "name": "Logitech MX Master 3S",
+    "name": "Logitech MX Master 3S Mouse",
     "category": "Computer Accessories",
     "photo": "https://jmau.imgix.net/media/catalog/product/9/1/910-005700-logitech-mx-master-3-wireless-mouse-for-mac.jpg?auto=compress&auto=format&fill-color=FFFFFF&fit=fill&fill=solid&w=496&h=279",
     "id": 19,
@@ -189,7 +189,7 @@
     "description": "Advanced stylus with pressure sensitivity and tilt support for creative work."
   },
   {
-    "name": "Logitech Combo Touch",
+    "name": "Logitech Combo Touch Case",
     "category": "Tablet Accessories",
     "photo": "https://i.ytimg.com/vi/M9SBpBG-gTU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGC4gUyh_MA8=&rs=AOn4CLBYyHM3d8WLmDmmZVHN_HMvPWQZlQ",
     "id": 22,
@@ -329,13 +329,13 @@
     "photo": "https://flexin.gr/image/cache/catalog/api/images/840353922273-1200x925.png.webp",
     "id": 37,
     "likes": 86,
-    "price": 521.0,
+    "price": 509.57,
     "description": "Affordable Pixel phone with a great camera and clean Android experience."
   },
   {
-    "name": "Xiaomi Redmi Note 14 Pro 5G",
+    "name": "Xiaomi Redmi Note 14 Pro 5G Lavender Purple",
     "category": "Smartphones",
-    "photo": "https://www.mistore-greece.gr/getmetafile/5c2b264e-0503-4cff-a922-9b60808d532d/note14propurple-5g.aspx",
+    "photo": "https://assets.gy.digital/pGlJssTe_Wf1iJNoE2SQKOShWSE=/fit-in/650x650/filters:fill(white)/s3.gy.digital%2Fi-mob%2Fuploads%2Fasset%2Fdata%2F5825%2F9400XIA0447.jpeg",
     "id": 38,
     "likes": 32,
     "price": 245.99,
@@ -344,14 +344,14 @@
   {
     "name": "Xiaomi Poco X7 Pro 5G",
     "category": "Smartphones",
-    "photo": "https://www.mistore-greece.gr/getmetafile/8b3bf853-3f22-4adc-8fe4-37951618f2ab/x7problack.aspx",
+    "photo": "https://assets.gy.digital/hTv0m8mbw3P2ZaBIDkHmh2mdftY=/fit-in/650x650/filters:fill(white)/s3.gy.digital%2Fi-mob%2Fuploads%2Fasset%2Fdata%2F5796%2F9400XIA0436.jpeg",
     "id": 39,
     "likes": 110,
     "price": 338.97,
     "description": "Performance-focused phone with a powerful processor and fast charging."
   },
   {
-    "name": "HP 250 G9 15.6",
+    "name": "HP 250 G9 15.6 Laptop",
     "category": "PCs & Laptops",
     "photo": "https://mrcheap.gr/image/cache/catalog/00183645_02-550x500w.jpg",
     "id": 40,
@@ -360,7 +360,7 @@
     "description": "Reliable budget laptop with decent performance for everyday use."
   },
   {
-    "name": "MSI Cyborg 15 A13VF 15.6",
+    "name": "MSI Cyborg 15 A13VF 15.6 Laptop",
     "category": "PCs & Laptops",
     "photo": "https://b.scdn.gr/images/sku_main_images/051843/51843430/xlarge_20240329095802_msi_cyborg_14_a13vf_15_6_144hz_i7_13620h_16gb_512gb_ssd_geforce_rtx_4060_w11_home.jpeg",
     "id": 41,
@@ -369,7 +369,7 @@
     "description": "Gaming laptop with a high-refresh-rate display and powerful GPU."
   },
   {
-    "name": "Lenovo V15 G4 AMN 15.6",
+    "name": "Lenovo V15 G4 AMN 15.6 Laptop",
     "category": "PCs & Laptops",
     "photo": "https://www.e-shop.gr/images/PER/BIG/PER.919380.jpg",
     "id": 42,
@@ -380,7 +380,7 @@
   {
     "name": "Xiaomi Redmi Pad SE",
     "category": "Tablets",
-    "photo": "https://eurogoods.gr/image/cache/catalog/%20%CF%83%CF%80%CE%B9%CF%84%CE%B9%CE%BF%CF%85/14621-1000x1000.png",
+    "photo": "https://www.kaizershop.gr/image/cache/catalog/XIAOMI/REDMI_PAD_SE/20230905103724_xiaomi_redmi_pad_se_11_tablet_me_wifi_4gb_128gb_graphite_gray-1200x638.jpeg",
     "id": 43,
     "likes": 68,
     "price": 160.99,
@@ -398,23 +398,23 @@
   {
     "name": "BlackView Tab 70",
     "category": "Tablets",
-    "photo": "https://businesscom.gr/wp-content/uploads/2024/07/1-300x300.jpg",
+    "photo": "https://i.pepita.hu/images/product/13227050/blackview-101-tab-70-wi-fi-grey-464gb-grey_97281338_1200x630.jpg",
     "id": 45,
     "likes": 12,
     "price": 85.99,
     "description": "Entry-level tablet with basic features for casual use."
   },
   {
-    "name": "LG Smart 43' 4K LED 43UR781C0LK.AEU (2023)",
+    "name": "LG Smart TV 43' 4K LED (2023)",
     "category": "TV",
-    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3hSC0uoU0kwBbVEhQRB1ACQa9i11VJKWfQ&s",
+    "photo": "https://www.lg.com/content/dam/channel/wcms/my/images/tvs/43ur7550psc_ats_eaml_my_c/gallery/DZ-01.jpg",
     "id": 46,
     "likes": 170,
     "price": 278.99,
     "description": "Compact 4K smart TV with webOS for easy streaming."
   },
   {
-    "name": "Samsung Smart 55' 4K QLED QE55Q60DAUXXH (2024)",
+    "name": "Samsung Smart TV 55' 4K QLED QE55Q60DAUXXH (2024)",
     "category": "TV",
     "photo": "https://papaxaralabous.gr/26467-large_default/%CF%84%CE%B7%CE%BB%CE%B5%CE%BF%CF%81%CE%B1%CF%83%CE%B7-samsung-55-qe55q60dauxxh-qled-4k.jpg",
     "id": 47,
@@ -423,9 +423,9 @@
     "description": "QLED TV with vibrant colors and smart features for an immersive viewing experience."
   },
   {
-    "name": "Tesla Smart 40' Full HD LED 40E635BFS (2023)",
+    "name": "Tesla Smart TV 40' Full HD LED 40E635BFS (2023)",
     "category": "TV",
-    "photo": "https://bbpcdn.pstatic.gr/bpimg17/8BZQJ/1T6slt_SX805Y805/1730370243/tesla-40e635bfs-smart-thleorash-40-full-hd-edge-led.jpg",
+    "photo": "https://tesla.info/wp-content/uploads/2023/02/E635.jpg",
     "id": 48,
     "likes": 57,
     "price": 190.99,
