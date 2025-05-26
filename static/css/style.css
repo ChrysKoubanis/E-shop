@@ -33,6 +33,13 @@ header {
   box-shadow: var(--shadow);
 }
 
+header {
+  height: 80px; /* ή όσο θέλεις */
+  padding: 0 2rem; /* όχι κάθετο padding */
+  display: flex;
+  align-items: center;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -577,6 +584,29 @@ footer {
     font-size: 0.8rem;
     color: #999;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+
 
 @media (max-width: 600px) {
     .newsletter-form {

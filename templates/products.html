@@ -10,7 +10,12 @@
 <body>
     <header>
         <nav>
-            <div class="logo"><i class="fas fa-laptop-code"></i> TechShop</div>
+            <div class="logo">
+                <a href="/">
+                    <img src="{{ url_for('static', filename='photos/logo.PNG') }}" alt="TechShop Logo" />
+                </a>
+            </div>
+
             <div class="menu-toggle"><i class="fas fa-bars"></i></div>
             <div class="nav-links">
                 <a href="/">Homepage</a>
