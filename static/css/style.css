@@ -437,22 +437,26 @@ footer {
 .dropdown {
   position: relative;
   display: inline-block;
+  height: 100%;
 }
 
-/* Dropdown button */
 .dropbtn {
   color: white;
   text-decoration: none;
   font-weight: 500;
   position: relative;
-  padding: 0; /* Αφαίρεση εσωτερικού padding */
+  padding: 0;
   margin: 0;
-  height: 100%; /* Ίδιο ύψος με τα άλλα links */
+  height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 0.5rem; /* ίδιο πλάτος με .nav-links a */
+  padding: 0 0.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
 }
-
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
@@ -586,25 +590,35 @@ footer {
 }
 
 .logo {
+  margin-right: 2rem; /* Προσθήκη περιθωρίου */
+}
+
+.logo {
   display: flex;
   align-items: center;
 }
 
 .logo img {
-  height: 50px;
+  height: 200px;
   width: auto;
   display: block;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* Αλλαγή από space-between */
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  width: 100%;
 }
 
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  margin-left: auto; /* Προσθήκη αυτής της γραμμής */
+}
 
 
 
