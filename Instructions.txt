@@ -1,36 +1,37 @@
 === ΟΔΗΓΙΕΣ ΕΓΚΑΤΑΣΤΑΣΗΣ ===
 
+
+ΠΡΟΑΠΑΙΤΟΥΜΕΝΑ:
+- Εγκατεστημένο το Docker Desktop: https://www.docker.com/products/docker-desktop
+- Σύνδεση στον λογαριασμό Docker (login όταν ζητηθεί)
+- Το VS code ή κάποια άλλη εφαρμογή
+
 1. ΚΛΩΝΟΠΟΙΗΣΗ REPOSITORY:
    git clone https://github.com/ChrysKoubanis/E-shop
 
-2. ΔΗΜΙΟΥΡΓΙΑ VENV:
-   Στο console ,γραψτε: python -m venv venv
+2. ΕΚΚΙΝΗΣΗ ΤΗΣ ΕΦΑΡΜΟΓΗΣ:
+   docker compose up --build
 
-3. Powershell admin
-   Ανοιγεις το Powershell σαν administrator
-   Τρεξε το command:Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-   κλεισε το Powershell
+Το site θα είναι διαθέσιμο στο: http://127.0.0.1:5000
+
+
+3. ΕΙΣΑΓΩΓΗ ΠΡΟΪΟΝΤΩΝ ΣΤΗ MONGODB (Μόνο την 1η φορά που θα μπείτε):
+
+   Βρείτε το όνομα του κοντέινερ MongoDB ,στο terminal γράψτε:  'docker ps' και δείτε το NAME του E-shop
+
+   Το πιο πιθανόν είναι να εμφανιστεί το όνομα e-shop-mongo-1
+
+   Αντηγράψτε το JSON:
+
+   Αν το όνομα είναι e-shop-mongo-1 ,στο terminal γράψτε: docker cp products.json e-shop-mongo-1:/products.json    
+
+   Μπείτε στο κοντέινερ:
+
+   Στο terminal γράψτε:  docker exec -it e-shop-mongo-1 bash
+
+   Για να εισάγετε τα products στο terminal γράψτε: mongoimport --db eshop_db --collection products --file /products.json --jsonArray
+
+   Μετά για να βγείτε απο το container γράψτε 'exit'
    
-4. ΕΝΕΡΓΟΠΟΙΗΣΗ VENV:
-   Στο console ,γραψτε: Για Windows: venv\Scripts\activate
-   Στο console ,γραψτε: Για macOS/Linux: source venv/bin/activate
 
-5. ΕΓΚΑΤΑΣΤΑΣΗ BIBLIOTHIKΩΝ:
-   Στο console ,γραψτε: pip install -r requirements.txt
-
-6. ΡΥΘΜΙΣΗ VS CODE:
-   - Ανοίξτε το VS Code και πατήστε Ctrl+Shift+P
-   - Επιλέξτε "Python: Select Interpreter"
-   - Enter Interpreter path
-   - Find
-   - Διαλέξτε το Python.exe από το venv/Scripts (E-shop/venv/Scripts/python.exe)
-
-7. ΕΚΤΕΛΕΣΗ:
-   python app.py
-
-
---ΟΔΗΓΙΕΣ ΔΗΜΙΟΥΡΓΙΑΣ ΒΑΣΗΣ ΔΕΔΟΜΕΝΩΝ
-   -Εγκατασταση Mongodb community server    https://www.mongodb.com/try/download/community
-   -Δημιουργηστε νεο connection και ονομαστε το Eshop
-   -Δεξια απο το Eshop πατηστε το + ,ονομαστε την βαση: eshop_db και το collection: products
-   -Στο products πατηστε ADD DATA και καντε import το json products (Απο τα files του Project)
+🛑 Για να τερματίσετε την εφαρμογή γράψτε στο terminal: docker compose down
