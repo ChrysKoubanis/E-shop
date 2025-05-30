@@ -1,14 +1,15 @@
 from flask import Flask, jsonify, request, render_template
 from flask_pymongo import PyMongo
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
 CORS(app)
 
-# MongoDB configuration
-app.config["MONGO_URI"] = "mongodb://localhost:27017/eshop_db"
+
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI", "mongodb://localhost:27017/eshop_db")
 mongo = PyMongo(app)
-db = mongo.db  # Για πιο καθαρό κώδικα
+db = mongo.db 
 
 @app.route('/')
 def home():
@@ -29,7 +30,7 @@ def search_products():
     if category:
         query['category'] = {"$regex": f"^{category}$", "$options": "i"}
 
-    # Σταθερή σειρά με βάση το ID
+    
     products = list(db.products.find(query, {'_id': 0}).sort('id', 1))
     return jsonify(products)
 
@@ -41,7 +42,7 @@ def search_by_category():
 
     query = {"category": {"$regex": f"^{category}$", "$options": "i"}}
     
-    # Σταθερή σειρά με βάση το ID
+    
     products = list(db.products.find(query, {'_id': 0}).sort('id', 1))
     return jsonify(products)
 
@@ -81,7 +82,6 @@ def like_product():
 
 @app.route('/popular-products', methods=['GET'])
 def popular_products():
-    # Εδώ εξακολουθούμε να ταξινομούμε κατά likes (top 5)
     products = list(db.products.find({}, {'_id': 0}).sort('likes', -1).limit(5))
     return jsonify(products)
 
@@ -90,4 +90,4 @@ def page_not_found(e):
     return render_template('404.html'), 404
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    app.run(host=os.getenv('FLASK_RUN_HOST', '127.0.0.1'), port=5000, debug=True)
