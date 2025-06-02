@@ -1,10 +1,10 @@
 :root {
-  --primary: #6e48aa;
+  --primary: #5c5ade;
   --secondary: #9d50bb;
-  --accent: #f56a6a;
+  --accent: #ff1f1f;
   --dark: #151414;
-  --light: #dcdeba;
-  --white: #f9fdcf;
+  --light: #d5c9ff;
+  --white: #d7c7e1;
   --transition: all 0.3s ease;
   --shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -532,7 +532,7 @@ footer {
 
 /* Newsletter Section */
 .newsletter {
-    background-color: #f9fdcf;
+    background-color: d5c9ff;
     padding: 3rem 1rem;
     text-align: center;
     margin-top: 2rem;
@@ -571,7 +571,7 @@ footer {
 
 .newsletter-form button {
     padding: 0.8rem 1.5rem;
-    background-color: #4CAF50;
+    background-color: #578259;
     color: white;
     border: none;
     border-radius: 4px;
@@ -653,3 +653,10 @@ nav {
         width: 100%;
     }
 }
+
+.category-sidebar a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #9d50bb;
+}
+ 
