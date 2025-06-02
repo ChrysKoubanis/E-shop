@@ -25,7 +25,13 @@ async function loadSlideshow() {
             slide.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${product.photo}')`;
 
             const nameDiv = document.createElement('div');
+            nameDiv.classList.add('slide-title');
+            nameDiv.textContent = product.name;
             
+            // Προσθήκη nameDiv στο slide
+            slide.appendChild(nameDiv);
+
+            // Προσθήκη slide στο container
             container.appendChild(slide);
         });
 
