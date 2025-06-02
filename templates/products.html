@@ -32,24 +32,24 @@
             <aside class="category-sidebar">
                 <h3>Devices</h3>
                 <ul>
-                    <li><a href="/products?category=Smartphones">Smartphones</a></li>
-                    <li><a href="/products?category=PCs%20%26%20Laptops">PCs & Laptops</a></li>
-                    <li><a href="/products?category=Tablets">Tablets</a></li>
-                    <li><a href="/products?category=Camera">Camera</a></li>
-                    <li><a href="/products?category=Printers%20%26%20Ink">Printers & Ink</a></li>
-                    <li><a href="/products?category=TV">TV</a></li>
-                    <li><a href="/products?category=Wearables">Wearables</a></li>
-                    <li><a href="/products?category=Audio">Audio</a></li>
+                    <li><a href="#" data-category="smartphones">Smartphones</a></li>
+                    <li><a href="#" data-category="PCs & Laptops">PCs & Laptops</a></li>
+                    <li><a href="#" data-category="tablets">Tablets</a></li>
+                    <li><a href="#" data-category="camera">Camera</a></li>
+                    <li><a href="#" data-category="Printers & Ink">Printers & Ink</a></li>
+                    <li><a href="#" data-category="tv">TV</a></li>
+                    <li><a href="#" data-category="wearables">Wearables</a></li>
+                    <li><a href="#" data-category="audio">Audio</a></li>
                 </ul>
     
                 <h3>Accessories</h3>
                 <ul>
-                    <li><a href="/products?category=Phone%20Accessories">Phone Accessories</a></li>
-                    <li><a href="/products?category=Computer%20Accessories">Computer Accessories</a></li>
-                    <li><a href="/products?category=Tablet%20Accessories">Tablet Accessories</a></li>
-                    <li><a href="/products?category=Camera%20Accessories">Camera Accessories</a></li>
-                    <li><a href="/products?category=TV%20Accessories">TV Accessories</a></li>
-                    <li><a href="/products?category=Wearable%20Accessories">Wearable Accessories</a></li>
+                    <li><a href="#" data-category="Phone Accessories">Phone Accessories</a></li>
+                    <li><a href="#" data-category="Computer Accessories">Computer Accessories</a></li>
+                    <li><a href="#" data-category="Tablet Accessories">Tablet Accessories</a></li>
+                    <li><a href="#" data-category="Camera Accessories">Camera Accessories</a></li>
+                    <li><a href="#" data-category="Tv Accessories">TV Accessories</a></li>
+                    <li><a href="#" data-category="Wearable Accessories">Wearable Accessories</a></li>
                 </ul>
             </aside>
     
@@ -93,23 +93,5 @@
         });
     </script>
 
-    <script>
-        // Τονίζει το ενεργό link του sidebar
-        window.addEventListener('DOMContentLoaded', () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const currentCategory = urlParams.get('category');
- 
-            if (currentCategory) {
-                const links = document.querySelectorAll('.category-sidebar a');
- 
-                links.forEach(link => {
-                    const linkCategory = link.href.split('category=')[1];
-                    if (decodeURIComponent(linkCategory) === currentCategory) {
-                        link.classList.add('active');
-                    }
-                });
-            }
-        });
-    </script>
 </body>
 </html>

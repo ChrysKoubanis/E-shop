@@ -3,8 +3,8 @@
   --secondary: #9d50bb;
   --accent: #ff1f1f;
   --dark: #151414;
-  --light: #d5c9ff;
-  --white: #d7c7e1;
+  --light: #ecdefc;
+  --white: #fffeff;
   --transition: all 0.3s ease;
   --shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -650,11 +650,5 @@ nav {
     .newsletter-form button {
         width: 100%;
     }
-}
-
-.category-sidebar a.active {
-    font-weight: bold;
-    text-decoration: underline;
-    color: #9d50bb;
 }
  
