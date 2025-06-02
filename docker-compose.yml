@@ -19,5 +19,11 @@ services:
     volumes:
       - mongo-data:/data/db
 
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+
+
 volumes:
   mongo-data:

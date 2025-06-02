@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlugInn - Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='photos/logo1.PNG') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="{{ url_for('static', filename='photos/logo.PNG') }}" alt="PlugInn Logo" />
+                </a>
+            </div>
+
+
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <div class="nav-links">
+                <a href="/">Homepage</a>
+                <a href="/products">All Products</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <div class="products-layout">
+            <!-- Αριστερή Στήλη: Κατηγορίες -->
+            <aside class="category-sidebar">
+                <h3>Devices</h3>
+                <ul>
+                    <li><a href="#" data-category="smartphones">Smartphones</a></li>
+                    <li><a href="#" data-category="PCs & Laptops">PCs & Laptops</a></li>
+                    <li><a href="#" data-category="tablets">Tablets</a></li>
+                    <li><a href="#" data-category="camera">Camera</a></li>
+                    <li><a href="#" data-category="Printers & Ink">Printers & Ink</a></li>
+                    <li><a href="#" data-category="tv">TV</a></li>
+                    <li><a href="#" data-category="wearables">Wearables</a></li>
+                    <li><a href="#" data-category="audio">Audio</a></li>
+                </ul>
+    
+                <h3>Accessories</h3>
+                <ul>
+                    <li><a href="#" data-category="Phone Accessories">Phone Accessories</a></li>
+                    <li><a href="#" data-category="Computer Accessories">Computer Accessories</a></li>
+                    <li><a href="#" data-category="Tablet Accessories">Tablet Accessories</a></li>
+                    <li><a href="#" data-category="Camera Accessories">Camera Accessories</a></li>
+                    <li><a href="#" data-category="Tv Accessories">TV Accessories</a></li>
+                    <li><a href="#" data-category="Wearable Accessories">Wearable Accessories</a></li>
+                </ul>
+            </aside>
+    
+            <!-- Κεντρική Στήλη: Προϊόντα -->
+            <section class="products-section">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search Products...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+    
+                <div class="products-container" id="products-list">
+                    <div class="loading-message">Loading Products...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>PlugInn</h3>
+                <p>Best Prices in Electronical Devices</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> CSD Auth, Thessaloniki</p>
+                <p><i class="fas fa-envelope"></i> info@pluginn.gr</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 PlugInn | Developed by Papadopoulou Ourania, Bouzouki Polyxeni, Koubanis Chrysostomos, Trygoutis Konstantinos</p>
+        </div>
+    </footer>
+
+    <script src="static/js/products.js"></script>
+    <script>
+        // Mobile Menu
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

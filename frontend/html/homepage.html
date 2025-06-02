@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlugInn - Welcome</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='photos/logo1.PNG') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- ====== Header ====== -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/"><img src="{{ url_for('static', filename='photos/logo.PNG') }}" alt="PlugInn Logo"></a>
+            </div>
+
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+
+            <div class="nav-links">
+                <a href="/">Homepage</a>
+
+                <div class="dropdown">
+                    <a href="/products" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="/products?category=">All Products</a>
+                        <a href="/products?category=Smartphones">Smartphones</a>
+                        <a href="/products?category=PCs%20%26%20Laptops">PCs & Laptops</a>
+                        <a href="/products?category=Tablets">Tablets</a>
+                        <a href="/products?category=Camera">Camera</a>
+                        <a href="/products?category=Printers%20%26%20Ink">Printers & Ink</a>
+                        <a href="/products?category=Tv">TV</a>
+                        <a href="/products?category=Wearables">Wearables</a>
+                        <a href="/products?category=Audio">Audio</a>
+                        <a href="/products?category=Phone Accessories">Phone Accessories</a>
+                        <a href="/products?category=Computer Accessories">Computer Accessories</a>
+                        <a href="/products?category=Tablet Accessories">Tablet Accessories</a>
+                        <a href="/products?category=Camera Accessories">Camera Accessories</a>
+                        <a href="/products?category=TV Accessories">TV Accessories</a>
+                        <a href="/products?category=Wearable Accessories">Wearable Accessories</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ====== Hero Section ====== -->
+    <section class="hero">
+        <div id="slideshow-container"></div> <!-- Δυναμικά προϊόντα -->
+        <div class="hero-content">
+            <h1>New Arrival: Next-Gen Smartphones</h1>
+            <p>Discover the best Offers now</p>
+            <a href="/products" class="btn">Check it out</a>
+        </div>
+    </section>
+
+    <!-- ====== Newsletter Section ====== -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>Register to our Newsletter</h2>
+            <p>Receive notifications and offers about our products!</p>
+            <form class="newsletter-form" onsubmit="return false;">
+                <input type="email" placeholder="Email Address" required>
+                <button type="submit">Register</button>
+            </form>
+            <p class="newsletter-note">*Your email won't be used for spam</p>
+        </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>PlugInn</h3>
+                <p>Best Prices in Electronical Devices</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p><i class="fas fa-map-marker-alt"></i> CSD AUTH, Thessaloniki</p>
+                <p><i class="fas fa-envelope"></i> info@pluginn.gr</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 PlugInn | Developed by Papadopoulou Ourania, Bouzouki Polyxeni, Koubanis Chrysostomos, Trygoutis Konstantinos</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="{{ url_for('static', filename='js/javascript.js') }}"></script>
+</body>
+</html>
