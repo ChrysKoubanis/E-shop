@@ -1,37 +1,38 @@
-=== ΟΔΗΓΙΕΣ ΕΓΚΑΤΑΣΤΑΣΗΣ ===
+# Electronics E-Shop (University Group Project)
 
+This repository contains the code for an **e-commerce website for electronic products**, originally developed as a **university group project** by a team of four students.  
+This public repository is a copy of the original private group project, created to showcase the work as part of my personal portfolio.
 
-ΠΡΟΑΠΑΙΤΟΥΜΕΝΑ:
-- Εγκατεστημένο το Docker Desktop: https://www.docker.com/products/docker-desktop
-- Σύνδεση στον λογαριασμό Docker (login όταν ζητηθεί)
-- Το VS code ή κάποια άλλη εφαρμογή
+---
 
-1. ΚΛΩΝΟΠΟΙΗΣΗ REPOSITORY:
-   git clone https://github.com/ChrysKoubanis/E-shop
+## 🛠️ Setup Instructions
 
-2. ΕΚΚΙΝΗΣΗ ΤΗΣ ΕΦΑΡΜΟΓΗΣ:
-   docker compose up --build
+1) Import Products into MongoDB (Only required the first time)
 
-Το site θα είναι διαθέσιμο στο: http://127.0.0.1:5000
+   -Find the name of the MongoDB container by running on
+      terminal: docker ps
+      Look at the NAME of the e-shop container.
+      Most likely it will be e-shop-mongo-1.
 
+   -Copy the JSON file into the container:
+      terminal: docker cp products.json e-shop-mongo-1:/products.json
 
-3. ΕΙΣΑΓΩΓΗ ΠΡΟΪΟΝΤΩΝ ΣΤΗ MONGODB (Μόνο την 1η φορά που θα μπείτε):
+   -Access the container:
+      terminal: docker exec -it e-shop-mongo-1 bash
 
-   Βρείτε το όνομα του κοντέινερ MongoDB ,στο terminal γράψτε:  'docker ps' και δείτε το NAME του E-shop
+   -Import the products into MongoDB:
+      terminal: mongoimport --db eshop_db --collection products --file /products.json --jsonArray
+  
+   -Exit the container:
+      terminal: exit
 
-   Το πιο πιθανόν είναι να εμφανιστεί το όνομα e-shop-mongo-1
+2) Start the application
 
-   Αντηγράψτε το JSON:
+   terminal: docker compose up --build
 
-   Αν το όνομα είναι e-shop-mongo-1 ,στο terminal γράψτε: docker cp products.json e-shop-mongo-1:/products.json    
+3) Stop the application
 
-   Μπείτε στο κοντέινερ:
+   docker compose down
 
-   Στο terminal γράψτε:  docker exec -it e-shop-mongo-1 bash
-
-   Για να εισάγετε τα products στο terminal γράψτε: mongoimport --db eshop_db --collection products --file /products.json --jsonArray
-
-   Μετά για να βγείτε απο το container γράψτε 'exit'
    
-
-🛑 Για να τερματίσετε την εφαρμογή γράψτε στο terminal: docker compose down
+Site in link: http://127.0.0.1:5000
