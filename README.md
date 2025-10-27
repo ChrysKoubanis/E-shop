@@ -1,7 +1,6 @@
 # Electronics E-Shop (University Group Project)
 
 This repository contains the code for an **e-commerce website for electronic products**, originally developed as a **university group project** by a team of four students.  
-This public repository is a copy of the original private group project, created to showcase the work as part of my personal portfolio.
 
 ---
 
